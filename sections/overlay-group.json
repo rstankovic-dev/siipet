@@ -1,0 +1,125 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "custom.overlay",
+  "name": "Overlay group",
+  "sections": {
+    "privacy-banner": {
+      "type": "privacy-banner",
+      "settings": {
+        "privacy_bar_title": "Cookie policy",
+        "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
+      }
+    },
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "disabled": true,
+      "settings": {
+        "apparition_delay": 5,
+        "show_only_on_index": true,
+        "show_only_for_visitors": true,
+        "show_only_once": true,
+        "title": "Signup for our newsletter",
+        "button_text": "Subscribe",
+        "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+      }
+    },
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "settings": {
+        "show_cart_note": true,
+        "show_shipping_text": true,
+        "show_view_cart_button": true,
+        "show_checkout_button": true,
+        "recommendations_title": "Trending this month",
+        "products": [],
+        "product_card_background": "#f2f2f2",
+        "product_card_text_color": ""
+      }
+    },
+    "search-drawer": {
+      "type": "search-drawer",
+      "settings": {
+        "full_width": false,
+        "show_article_category": true,
+        "search_menu": "",
+        "search_menu_show_title": true
+      }
+    },
+    "sticky_tabs_bg7zX6": {
+      "type": "sticky-tabs",
+      "blocks": {
+        "tab_JGedXG": {
+          "type": "tab",
+          "settings": {
+            "title": "In the Box",
+            "linked_section_id": "shopify-section-template--20340408910079__media_with_text_xbCbG4"
+          }
+        },
+        "tab_dwNhDJ": {
+          "type": "tab",
+          "settings": {
+            "title": "Selling Points",
+            "linked_section_id": "shopify-section-template--20340408910079__media_with_text_bp7dgW"
+          }
+        },
+        "tab_zMdQVy": {
+          "type": "tab",
+          "settings": {
+            "title": "Subscription",
+            "linked_section_id": "shopify-section-template--20340408910079__media_with_text_NDMUQz"
+          }
+        },
+        "tab_qmMhdn": {
+          "type": "tab",
+          "settings": {
+            "title": "In the Media",
+            "linked_section_id": "shopify-section-template--20340408910079__multi_column_L9UqiB"
+          }
+        },
+        "tab_fDMNqT": {
+          "type": "tab",
+          "settings": {
+            "title": "FAQ",
+            "linked_section_id": "shopify-section-template--20340408910079__faq_N6t6gF"
+          }
+        }
+      },
+      "block_order": [
+        "tab_JGedXG",
+        "tab_dwNhDJ",
+        "tab_zMdQVy",
+        "tab_qmMhdn",
+        "tab_fDMNqT"
+      ],
+      "name": "Sticky Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "center",
+        "first_tab_open": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "privacy-banner",
+    "newsletter-popup",
+    "cart-drawer",
+    "search-drawer",
+    "sticky_tabs_bg7zX6"
+  ]
+}

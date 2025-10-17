@@ -1,0 +1,87 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.joy01-tester.json",
+  "context": {
+    "market": "japan"
+  },
+  "sections": {
+    "1748514390c0a116e8": {
+      "settings": {
+        "background": "#ffffff"
+      },
+      "blocks": {
+        "forms_inline_qpJ76x": {
+          "settings": {
+            "form_id": "486930"
+          }
+        }
+      }
+    },
+    "image_with_text_overlay_XFzczd": {
+      "settings": {},
+      "blocks": {
+        "heading_Ni8Y8B": {
+          "settings": {
+            "text": "スマート猫ケアの限定テスタープログラムに参加しよう"
+          }
+        },
+        "richtext_FC4T8n": {
+          "settings": {
+            "content": "<p>猫は痛みを隠すのが得意ですが、トイレ行動の変化はUTIs（尿路感染症）、便秘、ストレスなどの健康問題の初期兆候を示すことがあります。</p>"
+          }
+        }
+      }
+    },
+    "rich_text_4WRRyi": {
+      "settings": {},
+      "blocks": {
+        "richtext_pk4VmH": {
+          "settings": {
+            "content": "<p>そのため、私たちはAIを搭載したスマートトイレカメラを開発しました。それはあなたの猫のトイレでの行動を監視、異常を検出し、健康問題の兆候をあなたにお知らせします。</p><ul><li>以下のフォームに記入して登録してください</li><li>選ばれたらカメラを無料でゲットできます</li><li>フィードバックを共有してください</li></ul>"
+          }
+        }
+      }
+    },
+    "image_with_text_overlay_ciYhUt": {
+      "settings": {},
+      "blocks": {
+        "heading_AGRCxK": {
+          "settings": {
+            "text": "このカメラのスマートな点は？"
+          }
+        }
+      }
+    },
+    "media_with_text_kkFdhh": {
+      "settings": {},
+      "blocks": {
+        "image_XErYhc": {
+          "settings": {
+            "title": "AI健康モニタリング",
+            "content": "<p>すべてのトイレでの活動は自動的に記録されます - どれくらいの頻度で、どれくらいの時間、どんな物が残ったか。AIは、以下のような危険信号を監視します。頻度の増加または減少、異常な滞在時間、形や色の異常なうんち。それは決して眠らない健康アシスタントと考えてください。</p>"
+          }
+        },
+        "image_MKpfGR": {
+          "settings": {
+            "title": "自動キャプチャ＆リアルタイムアラート",
+            "content": "<p>カメラはあなたの猫がトイレに入ったときのみ作動し、HDビデオをキャプチャし、何か異常があればアラートを送信します。あなたはアプリを通じていつでもライブでリアルタイムに確認することもできます。</p>"
+          }
+        },
+        "image_Yh6Edt": {
+          "settings": {
+            "title": "複数の猫を認識",
+            "content": "<p>私たちのシステムは複数の猫を個別に識別して追跡できるので、あなたはいつもどの猫がいつ、そしてどんな様子だったかを知ることができます。あなたが1匹の猫と暮らしているか、たくさんの猫たちと暮らしているかにかかわらず、このカメラは彼らの記録をきちんと管理します。</p>"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "markets": {
+    "1d2e6d4a-eb92-494b-bd46-fe52f1d4c270": {
+      "parent": "@default"
+    },
+    "germany": {
+      "parent": "@default"
+    },
+    "japan": {
+      "parent": "@default"
+    },
+    "法国": {
+      "parent": "@default"
+    }
+  }
+}

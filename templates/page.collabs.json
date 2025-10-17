@@ -1,0 +1,83 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_XagmD3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_4nPjHC": {
+          "type": "subheading",
+          "settings": {
+            "text": "Create, Share & Earn with Early Try-On"
+          }
+        },
+        "heading_G4xQtn": {
+          "type": "heading",
+          "settings": {
+            "text": "Join the Siipet creator community",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4nPjHC",
+        "heading_G4xQtn"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/1_5c916444-52b0-4945-b056-037afe9639eb.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "collabs": {
+      "type": "apps",
+      "blocks": {
+        "cbfa3c7f-e374-4b2d-b71e-f4f9ff075fa8": {
+          "type": "shopify://apps/collabs/blocks/application-page/54758706-9f25-4fa9-a553-64720a4c998b",
+          "settings": {
+            "heading": "",
+            "show_square_logo": false,
+            "show_partnership_info": false,
+            "button_text": "Apply now",
+            "number_of_images": "4",
+            "logo_position": "above",
+            "corner_style": "square",
+            "button_background_color": "#000000",
+            "button_label_color": "#ffffff",
+            "link_color": "#2c6ecb"
+          }
+        }
+      },
+      "block_order": [
+        "cbfa3c7f-e374-4b2d-b71e-f4f9ff075fa8"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_XagmD3",
+    "collabs"
+  ]
+}

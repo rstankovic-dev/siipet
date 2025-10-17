@@ -1,0 +1,1203 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "liquid_fty6mj": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span style=\"font-size: 14px; padding: 6px 12px; background: #E82B00; color: white;\">Launching Promo</span>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "disabled": true,
+          "settings": {}
+        },
+        "liquid_KwDf6j": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span style=\"font-size: 20px;\">Track litter box habits 24/7” / “Smart alerts when behavior changes” / “Health insights via AI</span>"
+          }
+        },
+        "learn_more_L9hCeN": {
+          "type": "learn_more",
+          "settings": {
+            "content": "<p><strong>1.Pet Toileting Behavior: Record - Analyze - Alert</strong></p><p><strong>2. Precise Stool Abnormality Identification, Recording & Notification</strong></p><p><strong>3. Multi-Pet visual Recognition accurately</strong></p><p><strong>4. Unique health timeline for each pet， with 12 months of data</strong></p><p><strong>5. Records only health-related moments, guard your pet's wellness and your privacy</strong></p><p><strong>6. Wired or Wireless, Month-Long Battery</strong> </p><p><strong>7. Durable & Easy-Clean Surface</strong> </p><p><strong>8. Gets Smarter Over Time With automatic OTA updates</strong></p>",
+            "button_label": "Learn more",
+            "content_height": 125,
+            "background_color": "#d4dde44d",
+            "text_color": "#333333",
+            "button_color": "#24a8ea"
+          }
+        },
+        "learn_more_UxDbEM": {
+          "type": "learn_more",
+          "disabled": true,
+          "settings": {
+            "content": "<p><strong>Accurate identification, recording, and timely notification of abnormal fecal status</strong><br/>Through AI intelligent monitoring of cat fecal status, and before it is buried by the cat, it actively captures and archives high definition images. Once abnormalities such as soft stools, diarrhea, and bloody stools are identified, the system will immediately send a reminder notification. And provide clear image records, so that you have evidence to rely on when consulting a veterinarian, achieve accurate communication, and avoid misjudgment</p>",
+            "button_label": "Learn more",
+            "content_height": 100,
+            "background_color": "#d4dde44d",
+            "text_color": "#333333",
+            "button_color": "#24a8ea"
+          }
+        },
+        "learn_more_akxLPc": {
+          "type": "learn_more",
+          "disabled": true,
+          "settings": {
+            "content": "<p><strong>Accurate multi-cat recognition</strong><br/>Exclusive Image Recognition Technology and industry-leading self-developed algorithms are like equipping each cat with a unique ID, accurately associating toilet behavior with individual cats, making health problems invisible and saying goodbye to troublesome investigations.<br/>Unlike the easily interfered weight sensing technology on the market, our visual algorithm ignores complex scenes with similar weights, providing more scientific recognition and more accurate results, specially designed for true multi-cat households.</p><p><strong>Scientific record</strong><br/>Establish an independent health timeline for each beloved cat in the app, display their bowel frequency and fecal status with charts, so that you can know the health dynamics of each cat like the back of your hand Storage can last up to 12 months (subscription version), allowing for both real-time viewing and historical tracking.</p><p>Protect your health and protect your privacy<br/>Compared to traditional cameras that record indiscriminately around the clock, our product uses CatSense + technology, infrared sensors, and image analysis technology to accurately identify the object as a cat and confirm that it is using the litter box before starting the recording. It can even recognize whether it is using the toilet or staying briefly. Refuse invalid recording, ensure that the recording is purely related to health, and greatly protect the privacy of you and your family.</p><p>Compatible with mainstream cat litter boxes on the market, open and compatible, no need for replacement.<br/>Whether it is an open, semi-open, or closed litter box, the product can be well placed and compatible, without the need for you to purchase expensive litter boxes.</p><p>Cute design, integrated into the home<br/>Adopting a cute owl shape, it is not only pet-friendly and not easily frightened, but also a delicate home decoration that harmoniously integrates into various home decoration styles.</p><p>Wired or wireless, use as you like<br/>Supports wired connection and wireless mode. With one charge, the battery life can last up to one month, completely getting rid of battery anxiety and frequent charging troubles.</p><p>Sturdy body, easy to maintain<br/>The surface is scratch-resistant and supports water washing (not soaking), making daily maintenance worry-free and effortless. It has an IP65 dustproof and waterproof rating</p><p>OTA upgrade, continuous evolution<br/>Through App OTA over-the-air upgrades, your device will automatically receive the latest algorithms and feature optimizations. This is not only a purchase, but also an intelligent investment that can appreciate over time</p><p>Support privacy mode settings, and you can turn off shooting at any time if necessary to ensure privacy and security without worries.</p>",
+            "button_label": "Learn more",
+            "content_height": 105,
+            "background_color": "#d4dde44d",
+            "text_color": "#333333",
+            "button_color": "#24a8ea"
+          }
+        },
+        "associated_products_XhPPUg": {
+          "type": "associated_products",
+          "settings": {
+            "title": "",
+            "stack_products": false,
+            "products_count": 2,
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#f4b700",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "offer_kVKTHF": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-credit-card",
+            "icon_width": 24,
+            "title": "Pay with Ease :",
+            "content": "",
+            "image": "shopify://shop_images/payment-icon_af8ec9fb-78a8-4f3c-a706-9e0662a37e52.png",
+            "background": "#ffffff",
+            "text_color": "#333333"
+          }
+        },
+        "separator_DkgxLQ": {
+          "type": "separator",
+          "settings": {}
+        },
+        "offer_3ebVKF": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-credit-card",
+            "icon_width": 24,
+            "title": "Trusted Delivery:",
+            "content": "",
+            "image": "shopify://shop_images/Logo_01.png",
+            "background": "#ffffff",
+            "text_color": "#333333"
+          }
+        },
+        "separator_gXMm9h": {
+          "type": "separator",
+          "settings": {}
+        },
+        "offer_mxCJYb": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-truck",
+            "icon_width": 20,
+            "title": "Shipping",
+            "content": "<p>The order will be shipped within 1 working day</p>",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a"
+          }
+        },
+        "separator_hrTGGW": {
+          "type": "separator",
+          "settings": {}
+        },
+        "offer_yTdyyr": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Glyph__undefined.svg",
+            "icon_width": 24,
+            "title": "",
+            "content": "<p><strong>Fast, Free Shipping : </strong>Ship out within 1-2 business days</p>",
+            "background": "#ffffff",
+            "text_color": "#333333"
+          }
+        },
+        "separator_CPyzG6": {
+          "type": "separator",
+          "settings": {}
+        },
+        "offer_TEPdNc": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-return",
+            "custom_icon": "shopify://shop_images/Glyph__undefined_ee947671-1c5e-49bd-918a-ba8dbeb75b0f.svg",
+            "icon_width": 24,
+            "title": "",
+            "content": "<p><strong>Free 30-Day Return : </strong>No reason needed. Free return shipping & refund.</p>",
+            "background": "#ffffff",
+            "text_color": "#333333"
+          }
+        },
+        "separator_n4Tf3G": {
+          "type": "separator",
+          "settings": {}
+        },
+        "offer_nBcmLp": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-document",
+            "custom_icon": "shopify://shop_images/Glyph__undefined_53865120-964d-49e9-8f63-42d71e390beb.svg",
+            "icon_width": 24,
+            "title": "",
+            "content": "<p><strong>One-Year Warranty : </strong>Warranty period subject to local laws</p>",
+            "background": "#ffffff",
+            "text_color": "#333333"
+          }
+        },
+        "separator_yeNGc3": {
+          "type": "separator",
+          "settings": {}
+        },
+        "offer_yphPcM": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Glyph__undefined_b2c48f55-7857-4db7-b9c1-89d14cb90448.svg",
+            "icon_width": 24,
+            "title": "",
+            "content": "<p><strong>Lifetime Customer Support : </strong>Quick support within 24 hours</p>",
+            "background": "#ffffff",
+            "text_color": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "liquid_fty6mj",
+        "title",
+        "rating",
+        "price",
+        "badges",
+        "liquid_KwDf6j",
+        "learn_more_L9hCeN",
+        "learn_more_UxDbEM",
+        "learn_more_akxLPc",
+        "associated_products_XhPPUg",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "offer_kVKTHF",
+        "separator_DkgxLQ",
+        "offer_3ebVKF",
+        "separator_gXMm9h",
+        "offer_mxCJYb",
+        "separator_hrTGGW",
+        "offer_yTdyyr",
+        "separator_CPyzG6",
+        "offer_TEPdNc",
+        "separator_n4Tf3G",
+        "offer_nBcmLp",
+        "separator_yeNGc3",
+        "offer_yphPcM"
+      ],
+      "custom_css": [
+        ".offer p,.offer span {font-size: 16px;}",
+        ".offer {grid-template-columns: auto 1fr; padding: 0;}",
+        ".offer img {max-height: 35px; width: auto;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "media_with_text_xbCbG4": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_Gz7fQ7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2783.png",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-start-end text-end",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>1x Litterlens </p><p>1x Base </p><p>1x Power Adapter </p><p>1x USB-C Charging Cable</p><p>1xQuick Start Guide<br/><br/></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ede4d9",
+            "background_gradient": "linear-gradient(45deg, rgba(228, 194, 183, 1), rgba(232, 228, 231, 1) 100%)",
+            "text_color": "#333333",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Gz7fQ7"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "rich_text_PBVhPC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GHJpdb": {
+          "type": "heading",
+          "settings": {
+            "text": "Product Selling Points",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_GHJpdb"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_bp7dgW": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_6ijAne": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/elio-mercogliano-k9_d46bdZpc-unsplash.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Intelligent Behavior Alerts",
+            "content": "<p>AI tracks litter box visits and spots abnormal patterns (e.g. frequent entry, long stays, painful posture). Sends instant alerts—early warnings for urinary issues so you can act fast.</p><ul><li>Real-time detection of abnormal behavior</li><li>Early warning for UTI/obstruction</li><li>Seize treatment window</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_f4wtj4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/judy-beth-morris-qqT6nYoG5xg-unsplash.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Smart Health Monitoring",
+            "content": "<p>High-def AI imaging of fecal status. Flags soft stools, diarrhea, or blood for early intervention. Provides clear image records for vets.</p><ul><li>Captures and analyzes stool health</li><li>Sends timely notifications</li><li>Helps avoid misdiagnosis</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_7ACkXg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/bram-wouters-wk8ohbU8y1o-unsplash.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Multi-Cat Recognition",
+            "content": "<p>AI “fingerprint” distinguishes each cat, even with similar body sizes. Provides accurate health tracking for multi-cat homes.</p><ul><li>Identifies cats individually</li><li>Tracks behavior with precision</li><li>Simplifies multi-cat care</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_HpYTV6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a96fca75266d7554c420875b097b573b.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Health Records & Tracking",
+            "content": "<p>App builds a full health timeline for each cat—stool frequency, bowel condition, history up to 12 months.</p><ul><li>Easy-to-read health history</li><li>Real-time + historical tracking</li><li>Long-term storage</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_MqiFrt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/HGP_0860-opq3830730706.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Privacy-First Monitoring",
+            "content": "<p>Unlike cameras, CatSense+ AI only identifies litter activity—no constant filming. Protects privacy while ensuring accurate health insights.</p><ul><li>Recognizes only relevant behavior</li><li>Avoids unnecessary recording</li><li>Prioritizes family privacy</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_AreVwW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/man-cleaning-non-natural-mineral-cat-litter-tray-a-2025-01-07-22-17-19-utc.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Compatible & Convenient",
+            "content": "<p>Works with most litter boxes—open, semi-open, or closed—no need to buy special boxes.</p><ul><li>Universal fit</li><li>Easy setup</li><li>Cost-saving</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_hxNzHR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0012392.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Pet-Friendly Design",
+            "content": "<p>Cute owl-shaped design blends into your home, pet-friendly and décor-friendly.</p><ul><li>Comforting design for cats</li><li>Integrates with home décor</li><li>Non-intimidating</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_mC4NhP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/close-up-of-a-hand-holding-a-plug-on-the-wall-2025-03-12-21-22-51-utc.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Flexible Power Options",
+            "content": "<p>Use wired or wireless. One charge = up to 1 month, no battery anxiety.</p><ul><li>Wired or wireless use</li><li>Long-lasting battery</li><li>Hassle-free charging</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_jxhmMB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9e87cee6156c7c77394948121583706a.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Durable & Easy-Clean",
+            "content": "<p>Scratch-resistant, waterproof, and supports water washing. IP65 dustproof and waterproof.</p><ul><li>Low-maintenance surface</li><li>Washable and durable</li><li>Long-lasting build</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_TypQLQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Always Up-to-Date",
+            "content": "<p>OTA upgrades keep your device evolving with the latest algorithms and optimizations.</p><ul><li>Continuous updates</li><li>Smarter over time</li><li>Future-proof investment</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_Q6E7nR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Smart Privacy Mode",
+            "content": "<p>Toggle shooting on/off anytime to ensure privacy and security.</p><ul><li>Adjustable privacy settings</li><li>On-demand control</li><li>Peace of mind</li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6ijAne",
+        "image_f4wtj4",
+        "image_7ACkXg",
+        "image_HpYTV6",
+        "image_MqiFrt",
+        "image_AreVwW",
+        "image_hxNzHR",
+        "image_mC4NhP",
+        "image_jxhmMB",
+        "image_TypQLQ",
+        "image_Q6E7nR"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "comparison_table_zJnegL": {
+      "type": "comparison-table",
+      "blocks": {
+        "headings_EQCWwq": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Plan",
+            "heading_2": "Pricing",
+            "heading_3": "Transcription",
+            "heading_4": "Speaker Labels",
+            "heading_5": "Auto Generation",
+            "heading_6": "Multimodal Input",
+            "heading_7": "Transcription Languages",
+            "heading_8": "AI Modals",
+            "heading_9": "Multidimensional Summaries",
+            "heading_10": "Professional Summary Templates",
+            "heading_11": "Custom Summary Templates",
+            "heading_12": "Ask Plaud",
+            "heading_13": "AutoFlow",
+            "heading_14": "Custom Vocabulary",
+            "heading_15": "Privacy & Security",
+            "heading_16": "Share & Export",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_KaLXNW": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><strong>Starter Plan</strong></p>",
+            "value_2": "<p>Free</p>",
+            "value_3": "<p>300/mo</p>",
+            "value_4": "<p>✔️</p>",
+            "value_5": "<p>✔️</p>",
+            "value_6": "<p>✔️</p>",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "<p>Available</p>",
+            "value_14": "<p>Available</p>",
+            "value_15": "<p>Available</p>",
+            "value_16": "<p>Available</p>",
+            "value_17": "<p>Available</p>",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_nr7zC6": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><strong>Pro Plan</strong></p>",
+            "value_2": "<p><strong>$8.33/month</strong></p><p>Billed Annually</p>",
+            "value_3": "<p>1,200/mo</p>",
+            "value_4": "<p>✔️</p>",
+            "value_5": "<p>✔️</p>",
+            "value_6": "<p>✔️</p>",
+            "value_7": "<p>✔️</p>",
+            "value_8": "<p>✔️</p>",
+            "value_9": "<p>✔️</p>",
+            "value_10": "<p>✔️</p>",
+            "value_11": "<p>✔️</p>",
+            "value_12": "<p>✔️</p>",
+            "value_13": "<p>✔️</p>",
+            "value_14": "<p>✔️</p>",
+            "value_15": "<p>Available</p>",
+            "value_16": "<p>Available</p>",
+            "value_17": "<p>Available</p>",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_EQCWwq",
+        "values_KaLXNW",
+        "values_nr7zC6"
+      ],
+      "custom_css": [
+        ".feature-chart__table-row:first-child .feature-chart__value {color: white; background: black; padding: 10px; border-radius: 4px;}",
+        ".feature-chart__table-row:first-child div:nth-child(2) {color: black; background: white;}"
+      ],
+      "name": "Comparison table",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Subscription Plan ",
+        "content": "<p>Give your customers useful information about your products and showcase differences between them.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "show_product_info": false,
+        "show_product_image": false,
+        "show_product_swatch": false,
+        "viewing_product": "",
+        "background": "",
+        "background_gradient": "linear-gradient(45deg, rgba(228, 194, 183, 1), rgba(232, 228, 231, 1) 100%)",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "media_with_text_NDMUQz": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_subscription_YAMQqg": {
+          "type": "image_subscription",
+          "settings": {
+            "image": "shopify://shop_images/Mask_group_2e499fa8-fcc5-4514-87b1-568212325f69.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Subscription Plan",
+            "subscriptions": [
+              "real-time-litter-tracking-and-odor-detection",
+              "ai-powered-health-insights-for-your-cat",
+              "automatic-cleaning-and-maintenance-reminders",
+              "multi-cat-activity-monitoring",
+              "cloud-based-data-sync-and-mobile-app-access",
+              "custom-alerts-for-unusual-behavior",
+              "weekly-health-summary-reports",
+              "firmware-and-app-updates-included"
+            ],
+            "content": "<p>Unlock Siipet Intelligence’s full AI capabilities with plan</p>",
+            "link_text": "Get Standard Monthly",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_subscription_YAMQqg"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "press_3BYpCB": {
+      "type": "press",
+      "blocks": {
+        "quote_fKq9R9": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_UbeqaW": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_egjgEP": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_Bp8pjx": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "quote_fKq9R9",
+        "quote_UbeqaW",
+        "quote_egjgEP",
+        "quote_Bp8pjx"
+      ],
+      "disabled": true,
+      "name": "Press",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "multi_column_L9UqiB": {
+      "type": "multi-column",
+      "blocks": {
+        "item_cT3q78": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/kv.mp4",
+            "show_controls": false,
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_A3XazK": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/主视频_加字幕已校对_1.mp4",
+            "show_controls": false,
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_cT3q78",
+        "item_A3XazK"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#ede4d9",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1760384638eccf976a": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_f7f520f_DEtJrk": {
+          "type": "ai_gen_block_f7f520f",
+          "settings": {
+            "full_width": false,
+            "columns_desktop": 3,
+            "columns_mobile": "1",
+            "column_gap": 30,
+            "section_padding": 40,
+            "card_background": "#ffffff",
+            "card_padding": 25,
+            "card_border_radius": 12,
+            "card_shadow_opacity": 8,
+            "image_spacing": 20,
+            "image_border_radius": 8,
+            "text_alignment": "left",
+            "title_color": "#333333",
+            "title_size": 20,
+            "title_spacing": 12,
+            "text_color": "#666666",
+            "text_size": 16,
+            "text_spacing": 20,
+            "brand_spacing": 20,
+            "column_1_enabled": true,
+            "column_1_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_c45eee89-144b-41ff-a9c4-61f30fe6c581.png",
+            "column_1_title": "",
+            "column_1_text": "\"LitterLens completely changes how I monitor my cat’s health — it’s like having a vet in your living room.\"",
+            "column_1_brand_image": "shopify://shop_images/Vector.png",
+            "column_2_enabled": true,
+            "column_2_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_c45eee89-144b-41ff-a9c4-61f30fe6c581.png",
+            "column_2_title": "",
+            "column_2_text": "\"Siipet’s AI-driven LitterLens tracks odor, waste, and patterns so precisely that it redefines what ‘smart litter box’ means.\"",
+            "column_2_brand_image": "shopify://shop_images/idnNSWZAqx_1760114300067_1.png",
+            "column_3_enabled": true,
+            "column_3_image": "shopify://shop_images/da21dde662a19a4b8a6e17048660983a_c45eee89-144b-41ff-a9c4-61f30fe6c581.png",
+            "column_3_title": "",
+            "column_3_text": "\"With real-time alerts and app sync, LitterLens takes pet care to another level — it’s both elegant and incredibly practical.\"",
+            "column_3_brand_image": "shopify://shop_images/id6qr8CCBc_1760114329322.png",
+            "column_4_enabled": false,
+            "column_4_title": "Feature title",
+            "column_4_text": "Share details about your product features and benefits.",
+            "column_5_enabled": false,
+            "column_5_title": "Feature title",
+            "column_5_text": "Share details about your product features and benefits.",
+            "column_6_enabled": false,
+            "column_6_title": "Feature title",
+            "column_6_text": "Share details about your product features and benefits."
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_f7f520f_DEtJrk"
+      ],
+      "settings": {}
+    },
+    "faq_N6t6gF": {
+      "type": "faq",
+      "blocks": {
+        "item_6tRwma": {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        "item_YrjN8F": {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        "item_yg4xW9": {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        },
+        "item_AJE4n3": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_7D6XBy": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_6gg7AJ": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_x7EKY6": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_Qpf9LG": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_44c4Hd": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_CDy7yB": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        },
+        "item_hBbP6D": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_6tRwma",
+        "item_YrjN8F",
+        "item_yg4xW9",
+        "item_AJE4n3",
+        "item_7D6XBy",
+        "item_6gg7AJ",
+        "item_x7EKY6",
+        "item_Qpf9LG",
+        "item_44c4Hd",
+        "item_CDy7yB",
+        "item_hBbP6D"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "text_with_icons_9XhxLG": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_dzbpH7": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Payment information processed securely.</p>"
+          }
+        },
+        "item_mCbThG": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>In selected countries/regions.</p>"
+          }
+        },
+        "item_y6hgXJ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-happy",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "1-Year Warranty",
+            "content": "<p>Shop w/ confidence and peace of mind.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_dzbpH7",
+        "item_mCbThG",
+        "item_y6hgXJ"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#1a1a1a"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_xbCbG4",
+    "rich_text_PBVhPC",
+    "media_with_text_bp7dgW",
+    "comparison_table_zJnegL",
+    "media_with_text_NDMUQz",
+    "press_3BYpCB",
+    "multi_column_L9UqiB",
+    "1760384638eccf976a",
+    "faq_N6t6gF",
+    "text_with_icons_9XhxLG",
+    "related-products"
+  ]
+}

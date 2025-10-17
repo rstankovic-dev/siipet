@@ -1,0 +1,227 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "image_with_text_overlay_XFzczd": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_Ni8Y8B": {
+          "type": "heading",
+          "settings": {
+            "text": "Try a Smart Companion for Your Cat’s Litter Time — Free for Early Testers",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_FC4T8n": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Urinary issues affect up to 1 in 20 cats over time — but most cases go unnoticed until it's serious.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ni8Y8B",
+        "richtext_FC4T8n"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "image_size": "sm",
+        "image": "shopify://shop_images/20250604-204847.jpg",
+        "mobile_image": "shopify://shop_images/20250604-210125.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    },
+    "rich_text_4WRRyi": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_pk4VmH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>That’s why we built a smart litter box camera powered by AI. It monitors your cat’s bathroom routine, detects abnormalities, and alerts you before small issues become serious.</p><p><strong>1. Apply: </strong>Fill out the form to tell us about you and your cat.</p><p><strong>2. Test: </strong>If selected, try the camera at home and share your feedback.<br/><br/>(Optional: Add your time zone if you're open to a 30–60 min audio call.)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_pk4VmH"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1748514390c0a116e8": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_qpJ76x": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "486710",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 1,
+            "padding_bottom": 1,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_qpJ76x"
+      ],
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_ciYhUt": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_AGRCxK": {
+          "type": "heading",
+          "settings": {
+            "text": "What Makes This Camera Smart?",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AGRCxK"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/20250604-205752.jpg",
+        "mobile_image": "shopify://shop_images/20250604-210125.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_kkFdhh": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_XErYhc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2000x2000_1_b2ac48c1-7f9c-43d7-b57b-50289a52807e.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "AI Health Monitoring",
+            "content": "<p>Automatically logs each litter box visit, tracking frequency, duration, and waste characteristics to identify potential health issues. </p><p>The AI watches for red flags, like: increased or decreased frequency, unusual length of stay, poop abnormalities in shape or color. Think of it as a health assistant that never sleeps.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_MKpfGR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2000x2000_2_4d0ca741-1dbb-42bd-97da-83aaeb0507f5.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Auto-Capture & Real-Time Alerts",
+            "content": "<p>Activates upon your cat's entry, capturing HD video and sending real-time alerts if anomalies are detected. You can also check in live anytime through the app.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_Yh6Edt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2000x2000_3_30dd7950-e64d-4587-b565-b20b66d628ab.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Multi-Cat Recognition",
+            "content": "<p>Identifies and monitors individual cats, ensuring accurate health tracking for each pet. Whether you live with one princess or a full clowder, this camera keeps their records straight.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XErYhc",
+        "image_MKpfGR",
+        "image_Yh6Edt"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_XFzczd",
+    "rich_text_4WRRyi",
+    "1748514390c0a116e8",
+    "image_with_text_overlay_ciYhUt",
+    "media_with_text_kkFdhh"
+  ]
+}

@@ -1,0 +1,1272 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "offer_gTbDLC": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-truck",
+            "icon_width": 20,
+            "title": "Free Shipping",
+            "content": "<p>Enjoy free shipping to the <strong>US</strong>, <strong>Canada</strong>, and select locations in Asia, including <strong>Japan, South Korea, Singapore, Mainland China, Hong Kong, Macau, and Taiwan.<br/></strong><br/><em>Please note: the app currently supports English only.</em></p>",
+            "background": "#dce7e6",
+            "text_color": "#06a698"
+          }
+        },
+        "separator_dRKexB": {
+          "type": "separator",
+          "settings": {}
+        },
+        "offer_xdb8Eh": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-comment",
+            "icon_width": 20,
+            "title": "MUST READ FOR U.S. SHOPPERS",
+            "content": "<p>Our current stock is housed in a local U.S. warehouse, so you <strong>won’t be affected</strong> by tariffs from the Trump administration. We’ll continue to keep our pricing and policies fair and transparent if future shipments are impacted.</p>",
+            "background": "#f2eaea",
+            "text_color": "#f83a3a"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "none",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "text_A6ra4z": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Works Out of the Box: All core features work with no subscription required. </strong></p><ul><li>PawTracking: Follows your pet—not people—with 360° spin & 270° tilt</li><li>PawPrints: Auto-captures cute behaviors in 4K</li><li>Wellness Watch: Sends alerts for limping, scratching & more</li><li>Daily Paws: Auto vlog, sorted by pet and behavior</li><li>Pet ID+: Tracks up to 5 pets individually</li><li>SmartFrame AI: Keeps your pet centered in every shot</li><li>Live Check-In: 1080p stream with two-way audio </li><li>Privacy Mode: Stops recording with tilt-down camera</li></ul>"
+          }
+        },
+        "text_g4GtWH": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>The PawTrack Camera is built exclusively for pet parents who want to stay close to their furry companions. </p><p>Designed to track pets only, the camera automatically captures their cutest and most heartwarming moments in stunning 4K. </p><p>Plus, with AI-driven health alerts, you’ll know right away if something feels off—because peace of mind starts with staying informed.</p>"
+          }
+        },
+        "collapsible_text_QEyxJV": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Shipping policy",
+            "content": "<p><strong>ORDER PROCESSING<br/></strong></p><p>1 business day for US and 3-5 business days for other shipping countries/regions.</p><p><strong>INTERNATIONAL SHIPPING</strong><br/><br/>North America: United States, Canada<br/>Asia: Japan, South Korea, Singapore, and Taiwan</p>",
+            "page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "offer_XJDRfX": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-validation",
+            "icon_width": 20,
+            "title": "1-Year Warranty",
+            "content": "",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        },
+        "offer_4qtNhw": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "center",
+            "icon_position": "aligned",
+            "icon": "picto-customer-support",
+            "icon_width": 20,
+            "title": "Lifetime Support",
+            "content": "",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        },
+        "share_buttons_UJgzpD": {
+          "type": "share_buttons",
+          "settings": {
+            "alignment": "start"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "badges",
+        "price",
+        "offer_gTbDLC",
+        "separator_dRKexB",
+        "offer_xdb8Eh",
+        "rating",
+        "payment_terms",
+        "variant_picker",
+        "text_A6ra4z",
+        "text_g4GtWH",
+        "collapsible_text_QEyxJV",
+        "quantity_selector",
+        "buy_buttons",
+        "offer_XJDRfX",
+        "offer_4qtNhw",
+        "share_buttons_UJgzpD"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#f2f2f2",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "#f2f2f2",
+        "input_text_color": ""
+      }
+    },
+    "video_8VjgEy": {
+      "type": "video",
+      "blocks": {
+        "play_CtgMLA": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_enQQHL": {
+          "type": "heading",
+          "settings": {
+            "text": "Watch Video",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "play_CtgMLA",
+        "heading_enQQHL"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "autoplay": false,
+        "video_size": "auto",
+        "video": "shopify://files/videos/主视频_加字幕已校对_1.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "poster": "shopify://shop_images/SKY_3215_0c6bf4a3-e28e-4a57-8645-968ccf8012c4.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "media_grid_ftRHQE": {
+      "type": "media-grid",
+      "blocks": {
+        "video_J6f3Q3": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Untitled design.mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "PawPrints: Auto-Recorded 4K Moments",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "video_mW4cR8": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Untitled design (1).mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "PawTracking",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "image_p7WUt9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Framing.png",
+            "title": "SmartFrame AI",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "image_ynfrEW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_80c65118-c0cc-4b92-b9b2-654629122032.png",
+            "title": "Wellness Watch",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "image_XJWihT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_9296605f-2ea2-40f3-80e6-5b3a83d4354d.png",
+            "title": "Privacy Mode",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "image_xtbWtf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_ff09e3d8-8d35-4e30-88ed-615670432c48.png",
+            "title": "Two-way Audio",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        }
+      },
+      "block_order": [
+        "video_J6f3Q3",
+        "video_mW4cR8",
+        "image_p7WUt9",
+        "image_ynfrEW",
+        "image_XJWihT",
+        "image_xtbWtf"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "multi_column_WGRDUJ": {
+      "type": "multi-column",
+      "blocks": {
+        "item_bWdfrB": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Free Plan",
+            "heading_tag": "h4",
+            "content": "<p>Your SiiPet Camera works right out of the box with full access to all AI-powered features.<br/></p><h5><strong>No subscription required</strong></h5><p>Includes: </p><p>• PawTracking<br/>• PawPrint (4K/8MP highlight)<br/>• SmartFrame AI <br/>• Multi-pet recognition<br/>• Real-time alerts<br/>• 1080P live view<br/>• Two-way audio <br/>• +1 days of rolling replay history <br/>• 32GB local storage (approx. 2,400 highlights)</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_UfqURf": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Basic Plan",
+            "heading_tag": "h4",
+            "content": "<p>More playback time, more flexibility. Ideal for keeping and reviewing your pet’s week.</p><h5><strong>$5.99/mo </strong></h5><p>Includes everything in Free</p><p>• +3 days of rolling replay history<br/>• 50 GB cloud storage (approx. 4,400 highlights)<br/>• Faster cloud playback<br/>• Unlimited downloads<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_nGwPap": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Premium Plan",
+            "heading_tag": "h4",
+            "content": "<p>Maximum history and storage for peace of mind. Perfect for frequent travelers.</p><h5><strong>$9.99/mo</strong></h5><p>Includes everything in Basic </p><p>• +5 days of rolling replay history<br/>• 100 GB cloud storage (approx. 9,000 highlights)<br/>• Faster cloud playback<br/>• Unlimited downloads<br/><br/><br/><br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "spacer_YDUCKx": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        }
+      },
+      "block_order": [
+        "item_bWdfrB",
+        "item_UfqURf",
+        "item_nGwPap",
+        "spacer_YDUCKx"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Compare Plans.",
+        "content": "<p>Ready to Use, Upgrade Anytime (Min. 1 Month)</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_Xi96hw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hgt4xF": {
+          "type": "heading",
+          "settings": {
+            "text": "See Every Corner of Their Day",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_fTc83X": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>With PawTracking, the camera follows your pets and no one else, providing a window into their unique journeys. Whether they’re lounging on the couch or sneaking behind the furniture, you’ll never miss a thing.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hgt4xF",
+        "richtext_fTc83X"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_jYV3Pt": {
+      "type": "video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Tracking 1.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "media_with_text_FBPe63": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_hqk9fx": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Untitled design (3).mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 70,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Full 360° spin and 270° tilt",
+            "content": "<p>This camera gives you a complete view of your pet’s world.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_hqk9fx"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": true,
+        "spacing": "small"
+      }
+    },
+    "rich_text_j7LbAj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VPwEnz": {
+          "type": "heading",
+          "settings": {
+            "text": "Every moment is a memory, and every memory is yours to keep or share",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_AnCVit": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Introducing PawPrints: The camera’s AI detects playful jumps, tail wags, and other adorable behaviors, automatically framing them into photos and videos in stunning 4K.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VPwEnz",
+        "richtext_AnCVit"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "174573746080f5a5ed": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_TPca7p": {
+      "type": "multi-column",
+      "blocks": {
+        "item_UW8eHG": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Multi.mp4",
+            "show_controls": false,
+            "column_size": "2",
+            "title": "Multi-Pet Recognition with Pet ID+",
+            "heading_tag": "h4",
+            "content": "<p>Tracks up to five pets individually, ensuring everyone gets their moment in the spotlight.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_QiQC34": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Privacy.mp4",
+            "show_controls": false,
+            "column_size": "2",
+            "title": "Your Privacy, Fully Respected",
+            "heading_tag": "h4",
+            "content": "<p>Activate privacy mode to stop recording and tilt the camera down—giving you complete peace of mind at home.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "spacer_4d3EtF": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        }
+      },
+      "block_order": [
+        "item_UW8eHG",
+        "item_QiQC34",
+        "spacer_4d3EtF"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_Vmt3B3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FDJVWM": {
+          "type": "heading",
+          "settings": {
+            "text": "A Day in Their Life, Organized",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_bEC4V3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Daily Paws turns your pet’s everyday moments into a smart, searchable vlog. Every clip is recorded in crisp 1080p and automatically tagged by behavior, so you can relive, review, and understand their day in seconds.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FDJVWM",
+        "richtext_bEC4V3"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_pWGtTJ": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/daily_paw_pc.jpg",
+        "mobile_image": "shopify://shop_images/daily_paw.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_xtaGMP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PdLABR": {
+          "type": "heading",
+          "settings": {
+            "text": "Stay Close, Even From Afar",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_f3LKAb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Talk to and comfort your pet anytime with real-time two-way audio—perfect for reducing anxiety when you're away.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PdLABR",
+        "richtext_f3LKAb"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_nJrJYY": {
+      "type": "video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Audible.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_wxMRUj": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_PqpWrw": {
+          "type": "heading",
+          "settings": {
+            "text": "What’s in the Box",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_FD6eG8": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>1× SiiPet AI Pet Camera</p><p>1× Base</p><p>1× Power Adapter</p><p>1× USB-C Charging Cable</p><p>1× Quick Start Guide</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PqpWrw",
+        "richtext_FD6eG8"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "image_size": "md",
+        "image": "shopify://shop_images/Included.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "comparison_table_FHHErd": {
+      "type": "comparison-table",
+      "blocks": {
+        "headings_9JJmT6": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Plan",
+            "heading_2": "Local Storage",
+            "heading_3": "Extended Replays",
+            "heading_4": "Extended Cloud Storage",
+            "heading_5": "Download Limit",
+            "heading_6": "Faster Video Viewing Speed",
+            "heading_7": "",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_XpfBcN": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><strong>Free</strong></p>",
+            "value_2": "<p>32 GB</p>",
+            "value_3": "<p>1 Day</p>",
+            "value_4": "<p>0 GB (Free storage for about 2,400 videos)</p>",
+            "value_5": "<p>50 Times</p>",
+            "value_6": "<p>Not Supported</p>",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_eng6MD": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><strong>Basic, 5.99 USD /mo</strong></p>",
+            "value_2": "<p>32 GB</p>",
+            "value_3": "<p>3 Days</p>",
+            "value_4": "<p>50 GB (About 4,400 videos)</p>",
+            "value_5": "<p>No Limit</p>",
+            "value_6": "<p>Supported</p>",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_TD94am": {
+          "type": "values",
+          "settings": {
+            "product": "",
+            "value_1": "<p><strong>Premium, 9.99 USD /mo</strong></p>",
+            "value_2": "<p>32 GB</p>",
+            "value_3": "<p>5 Days</p>",
+            "value_4": "<p>100 GB (About 9,000 videos)</p>",
+            "value_5": "<p>No Limit</p>",
+            "value_6": "<p>Supported</p>",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_9JJmT6",
+        "values_XpfBcN",
+        "values_eng6MD",
+        "values_TD94am"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "Cloud Storage Subscription",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "max_rows": 6,
+        "view_all_text": "",
+        "view_less_text": "less",
+        "view_product": "",
+        "show_product_info": false,
+        "show_product_image": false,
+        "show_product_swatch": false,
+        "viewing_product": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "specification_table_JwkeTd": {
+      "type": "specification-table",
+      "blocks": {
+        "row_z47PXJ": {
+          "type": "row",
+          "settings": {
+            "heading": "Dimensions",
+            "value": "<p>2.86 x2.62 x4.39 inches</p>"
+          }
+        },
+        "row_3A6tKq": {
+          "type": "row",
+          "settings": {
+            "heading": "Weight",
+            "value": "<p>0.58 lbs</p>"
+          }
+        },
+        "row_zEkrbM": {
+          "type": "row",
+          "settings": {
+            "heading": "Camera",
+            "value": "<p>Resolution: 8MP<br/>Effective Pixels: 3864(H)x2192(V)<br/>Aperture: f/1.6<br/>Video Resolution: 3840 x 2160<br/>Digital zoom:1-4x</p>"
+          }
+        },
+        "row_igqEzY": {
+          "type": "row",
+          "settings": {
+            "heading": "Gimbal",
+            "value": "<p>Gimbal Range: Horizontal Rotation: 280°; Vertical Tilt: 160°</p>"
+          }
+        },
+        "row_QW8chV": {
+          "type": "row",
+          "settings": {
+            "heading": "Field of view",
+            "value": "<p>Horizontal: 360°; Vertical: 270°</p>"
+          }
+        },
+        "row_mVGefm": {
+          "type": "row",
+          "settings": {
+            "heading": "Power supply",
+            "value": "<p>Voltage: 5V 3A</p>"
+          }
+        },
+        "row_cVggAq": {
+          "type": "row",
+          "settings": {
+            "heading": "Storage",
+            "value": "<p>eMMC 32GB (Holds Approx. 2000 Reels)</p>"
+          }
+        },
+        "row_zxGUze": {
+          "type": "row",
+          "settings": {
+            "heading": "Network",
+            "value": "<p>2.4G & 5G (1x1), BLE Communication + Control Audio</p>"
+          }
+        },
+        "row_DXBNg7": {
+          "type": "row",
+          "settings": {
+            "heading": "Audio",
+            "value": "<p>Digital Microphone x2 + 1W Speaker with Noise Reduction</p><p>Audio Modes: Noise Reduction/Automatic Gain Control</p>"
+          }
+        },
+        "row_yGDCD4": {
+          "type": "row",
+          "settings": {
+            "heading": "Interface",
+            "value": "<p>Power& Communication Magnetic Interface</p>"
+          }
+        },
+        "row_4wBbmQ": {
+          "type": "row",
+          "settings": {
+            "heading": "Buttons",
+            "value": "<p>1</p>"
+          }
+        },
+        "row_Myimpz": {
+          "type": "row",
+          "settings": {
+            "heading": "LED",
+            "value": "<p>Bottom Arc-shaped LED</p>"
+          }
+        },
+        "row_RJjaFe": {
+          "type": "row",
+          "settings": {
+            "heading": "Operating Temperature",
+            "value": "<p>20-40°C</p>"
+          }
+        },
+        "row_bLjEAH": {
+          "type": "row",
+          "settings": {
+            "heading": "System Requirements",
+            "value": "<p>Android 10.0 or ios 13.0 and above</p>"
+          }
+        },
+        "row_XhfY6n": {
+          "type": "row",
+          "settings": {
+            "heading": "Warranty",
+            "value": "<p>1 Year</p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_z47PXJ",
+        "row_3A6tKq",
+        "row_zEkrbM",
+        "row_igqEzY",
+        "row_QW8chV",
+        "row_mVGefm",
+        "row_cVggAq",
+        "row_zxGUze",
+        "row_DXBNg7",
+        "row_yGDCD4",
+        "row_4wBbmQ",
+        "row_Myimpz",
+        "row_RJjaFe",
+        "row_bLjEAH",
+        "row_XhfY6n"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Product specification",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "faq_rTJYpG": {
+      "type": "faq",
+      "blocks": {
+        "item_FBLXwX": {
+          "type": "item",
+          "settings": {
+            "title": "How to connect SiiPet camera with App？",
+            "content": "<p>To connect your SiiPet camera with the app, follow these steps:</p><ul><li><strong>Download the SiiPet App</strong>: Search for \"SiiPet\" in the App Store or Google Play Store, or visit siipet.com to download the SiiPet app onto your smartphone.</li><li><strong>Power On the Camera</strong>: Plug in the charger to turn on the SiiPet camera. Ensure that the status light starts flashing blue. If it doesn't, you can manually power it on by holding down the power button behind the camera for about 10 seconds until the light starts flashing blue.</li><li><strong>Log In and Connect</strong>: After launching the app, log in with your SiiPet account. Once logged in, follow the on-screen instructions to connect to your camera. Remember, one account can manage up to 20 cameras.</li></ul><p>If you're having trouble connecting and the connection keeps failing, try these troubleshooting steps:</p><ul><li><strong>Check App Permissions</strong>: Ensure that the SiiPet app has the necessary permissions, specifically for network access and Bluetooth.</li><li><strong>Verify Wi-Fi Status</strong>: Make sure that Wi-Fi is enabled on your phone and that it's connected to the network you want the camera to use.</li><li><strong>Proximity to the Camera</strong>: Ensure that your phone is close enough to the SiiPet camera to establish a connection.</li></ul><p>If, after trying these steps, you still can't connect to the camera:</p><ul><li>Use the help center button within the app to find additional support.</li><li>Call the customer service hotline for direct assistance.</li><li>Provide feedback through the app, detailing the issues you're experiencing for further troubleshooting.</li></ul><p>Remember to keep your camera, app, and phone's software up to date to ensure compatibility and smooth functionality.</p>"
+          }
+        },
+        "item_F7exdC": {
+          "type": "item",
+          "settings": {
+            "title": "How to make the SiiPet camera track your pets?",
+            "content": "<ul><li>After successfully connecting the SiiPet camera to the SiiPet app, you should complete a profile for each of your pets by following the on-screen instructions.</li><li>Once you have completed the profiles, the camera can automatically track your pets.</li><li>If you have profiles for more than one pet, the camera can identify and track each one, provided that the profiles are accurate.To ensure accurate multi-pet identification, you can add profiles for up to 5 pets. Keep in mind that SiiPet may have difficulty distinguishing between pets of the same breed or with similar fur colors. Please be aware that there may be errors in multi-pet identification if your pets are of the same breed or have similar fur colors.</li></ul>"
+          }
+        },
+        "item_KRKkwU": {
+          "type": "item",
+          "settings": {
+            "title": "How to view the pictures and videos captured by SiiPet camera?",
+            "content": "<ul><li>Ensure you've added your camera and pets to the SiiPet app to view its captured videos and photos.</li><li>The camera captures daily highlights of your pet's special moments. View all photos and videos on the \"Memories\" page. To capture manually, tap the record button in the app or press the camera's button. Access them on both \"Today's Highlights\" and \"Memories\".</li><li>Check \"Activity\" for pet replays and alerts on events like barking.</li><li>If you subscribe to cloud storage, you gain the ability to view rewinds for either 3 or 7 days, depending on the subscription plan, as you will have additional space to store the rewind videos.</li><li>Get notified of today's highlights featuring your pet's special moments. The camera will also instantly alert you to any abnormal behaviors it detects. Stay updated!</li></ul>"
+          }
+        },
+        "item_3NrqNL": {
+          "type": "item",
+          "settings": {
+            "title": "How to download photos and videos to your phone?",
+            "content": "<ul><li>Open the memories page in the SiiPet app.</li><li>Tap the \"select\" button or icon to enter the selection mode.</li><li>Choose the photos and videos you want to download by tapping on each item. Many apps allow for multi-select, where you can tap multiple photos and videos to select them all at once.</li><li>After making your selections, look for a \"download,\" \"save to device,\" or similar button to initiate the download process. This will save the selected photos and videos to your phone's gallery or designated storage area.</li></ul>"
+          }
+        },
+        "item_RLLpFF": {
+          "type": "item",
+          "settings": {
+            "title": "How to take photos or videos manually?",
+            "content": "<p>Taking Photos:<br/>Open the real-time page or the rewind video in the SiiPet app.<br/>Click the photo capture button to take a photo.<br/>Recording Videos:<br/>Open the real-time page or the rewind video in the SiiPet app.<br/>Click the video record button to start recording a video.<br/>Alternatively, you can press the record button on the camera itself to start video recording.</p>"
+          }
+        },
+        "item_EXLCUY": {
+          "type": "item",
+          "settings": {
+            "title": "How to talk with your pets when you're away from home？",
+            "content": "<ul><li>Open the real-time page within the SiiPet app.</li><li>You will see the microphone button on the landscape screen. Locate and click the call button to initiate a remote conversation with your pets.</li></ul>"
+          }
+        },
+        "item_N3Umtz": {
+          "type": "item",
+          "settings": {
+            "title": "How to view highlight clips of different pets?",
+            "content": "<p>You can go to the top of the \"Memories\" page, click on the pet's avatar, and switch between different pets.</p>"
+          }
+        },
+        "item_GXL37p": {
+          "type": "item",
+          "settings": {
+            "title": "How to share your device with friends?",
+            "content": "<ul><li>Open the settings page within the SiiPet app.</li><li>Find and tap \"Device Sharing\" to start sharing your device.</li><li>Please share the generated invitation link with your family and friends. Kindly note the link's expiration date.</li><li>Before they accept the invitation, please ensure they've downloaded SiiPet and created an account.</li></ul>"
+          }
+        },
+        "item_dCfVE9": {
+          "type": "item",
+          "settings": {
+            "title": "How to put the camera into sleep mode？",
+            "content": "<p><strong>Using the Real-time Preview Screen: </strong>On the real-time preview screen, locate and toggle the switch to the off position. The camera will enter sleep mode and will remain in this state until you turn the switch back on.<br/><strong>Using the scheduled Sleep Mode: </strong>Open the settings page within the SiiPet app.<br/>Select the camera from the list of devices.<br/>Navigate to the camera's settings page and find the scheduled sleep mode option.<br/>Choose scheduled sleep mode and set specific on and off times for the camera to enter sleep mode automatically according to the schedule.</p>"
+          }
+        },
+        "item_UMiJ3z": {
+          "type": "item",
+          "settings": {
+            "title": "How to update the firmware of your camera？",
+            "content": "<ul><li>Firmware updates are automatic. Your camera updates itself when new firmware is available, usually at midnight, without any audio or visual notifications to minimize disruption.</li><li>During updates, your camera temporarily pauses and resumes operation automatically once the update is complete.</li><li>If you prefer not to receive automatic firmware updates, simply disable the \"Automatic Firmware Updates\" option in your app's settings.</li><li>When the new firmware is ready, a red dot appears on the device list page within the app. This indicates you have the option to manually update your camera's firmware at your convenience.</li></ul>"
+          }
+        },
+        "item_xpGewD": {
+          "type": "item",
+          "settings": {
+            "title": "What to do if a firmware update fails？",
+            "content": "<p>A firmware update involves two main steps: downloading the firmware and then updating the device.</p><ul><li><strong>Firmware Download:</strong><br/>When you choose to update the firmware when new firmware is available, the SiiPet app will initiate the download of the firmware file. If the download fails for any reason, simply attempt to download it again.</li><li><strong>Automatic Firmware Update:</strong><br/>Once the firmware is downloaded, the SiiPet app is designed to automatically update the firmware.If the update process fails, the app will attempt to restart the update.</li><li><strong>Troubleshooting Steps:</strong><br/>If the firmware update continues to fail, consider the following steps:</li><li><strong>Further Assistance:</strong><br/>If all else fails, contact SiiPet customer support for further assistance. They can provide additional troubleshooting steps or escalate the issue if necessary.</li></ul>"
+          }
+        },
+        "item_gXVqm8": {
+          "type": "item",
+          "settings": {
+            "title": "What to do if the camera's storage space is full",
+            "content": "<ul><li><strong>Subscribing to Cloud Storage:</strong><br/>If your camera's storage space is full, you have the option to subscribe to cloud storage. By subscribing, you'll gain additional storage capacity to save your pets' highlight photos and videos, and you'll also have access to rewind videos for either 3 or 7 days, depending on the subscription plan.</li><li><strong>Downloading and Managing Local Storage:</strong><br/>If you prefer not to subscribe to cloud storage, you can manage the storage space locally by downloading the photos and videos to your phone. Once downloaded, you can delete them from the memories to free up space for new recordings.</li></ul>"
+          }
+        },
+        "item_gXHE7J": {
+          "type": "item",
+          "settings": {
+            "title": "How to delete all data from the cloud？",
+            "content": "<p>Once you have subscribed to cloud storage, the app automatically uploads your videos and photos to cloud storage space.</p><ul><li><strong>Initiating Deletion:</strong></li></ul><p>Locate the Settings page, open \"Cloud Storage\" within it, and then select \"Data Management\" to manage and delete your cloud subscription data.</p><ul><li><strong>Deletion Process:</strong><br/>Upon confirmation, the app will initiate the process of deleting all your data from the cloud. Depending on the amount of data, this process may take some time to complete.</li><li><strong>Post-Deletion:</strong><br/>After the deletion is complete, all data previously stored in the cloud will be permanently removed and can no longer be recovered. Ensure that you have local backups if needed before proceeding with this action.</li><li><strong>Security Note:</strong><br/>Be cautious when performing this action, as deleting data from the cloud is irreversible. Only proceed if you are certain that you want to remove all cloud-stored data.</li></ul>"
+          }
+        },
+        "item_UnVh93": {
+          "type": "item",
+          "settings": {
+            "title": "What should I do if my cloud storage subscription has expired?",
+            "content": "<ul><li><strong>Renew Your Subscription:</strong><br/>If your cloud storage subscription has expired, you have the option to renew it within a month. To do this, go to the subscription or settings page in the SiiPet app and follow the prompts to renew your cloud storage plan.</li><li><strong>Data Retention Policy:</strong><br/>SiiPet will retain the data stored in your cloud space for a grace period if your subscription has expired. This grace period is one month, during which time your data will not be deleted.</li><li><strong>Data Deletion:</strong><br/>It's important to note that if you do not renew your subscription within this one-month grace period, SiiPet will delete the data from your cloud storage to free up space. This means you could lose access to your stored photos, videos, and other data.</li><li><strong>Avoid Data Loss:</strong><br/>To avoid losing any important data, make sure to renew your cloud storage subscription before the grace period ends. Set a reminder if necessary to ensure you address this in a timely manner.</li><li><strong>Accessing Data After Expiration:</strong><br/>During the grace period, you should still have access to your data in the cloud. Use this time to decide whether to renew your subscription or to download and back up your data locally before it is deleted.</li></ul>"
+          }
+        },
+        "item_jb4bz3": {
+          "type": "item",
+          "settings": {
+            "title": "How to disconnect the device from my account?",
+            "content": "<ul><li><strong>Access Device List:</strong><br/>Open the app, navigate to the settings menu, and select \"My Devices\" to view the list of devices currently associated with your account.</li><li><strong>Select the Device:</strong><br/>Locate the specific device you wish to disconnect from the list and tap on it to access its settings.</li><li><strong>Initiate Disconnection:</strong><br/>In the device settings, Go to “Device Management”&gt; \"Reset Device\" option and select it. This will initiate the process of removing the device from your account.</li><li><strong>Confirm the Action:</strong><br/>You'll be prompted to confirm your intention to disconnect the device. This is to ensure that the action is intentional.</li><li><strong>Device Data Deletion:</strong><br/>Upon confirmation, all data associated with the device, including settings, recordings, and other information, will be deleted.</li><li><strong>Account Disconnection</strong>:<br/>Once the data deletion is complete, the device will be successfully disconnected from your account. It will no longer be accessible or controllable through your account.</li><li><strong>Resetting the Device (Optional):</strong><br/>If needed, the device may require a factory reset, which can usually be done through its physical buttons or settings menu.</li><li><strong>Re-setup for Future Use:</strong><br/>If you plan to use the device with a different account or reconnect it to the same account later, you'll need to go through the setup process again, including connecting the device to your network and linking it to an account within the app.</li><li><strong>Considerations for Re-connection:</strong><br/>Remember that when you set up the device again, it will not retain any previous configurations or data. It will essentially be treated as a brand new device.</li></ul>"
+          }
+        },
+        "item_NR9LAt": {
+          "type": "item",
+          "settings": {
+            "title": "How to check the serial number of your SiiPet camera?",
+            "content": "<ul><li><strong>Original Packaging:</strong><br/>The simplest way to find the serial number is to check the original packaging of the camera. The serial number will be on the label at the bottom of the device.</li><li><strong>SiiPet App:</strong><br/>If you have already connected the SiiPet camera to the app, you can find the serial number within the app itself. Here's how:</li></ul>"
+          }
+        },
+        "item_TCjzMD": {
+          "type": "item",
+          "settings": {
+            "title": "Why does the camera get hot?",
+            "content": "<p>During continuous operation, it is normal for the camera to generate heat. Please use it with confidence.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_FBLXwX",
+        "item_F7exdC",
+        "item_KRKkwU",
+        "item_3NrqNL",
+        "item_RLLpFF",
+        "item_EXLCUY",
+        "item_N3Umtz",
+        "item_GXL37p",
+        "item_dCfVE9",
+        "item_UMiJ3z",
+        "item_xpGewD",
+        "item_gXVqm8",
+        "item_gXHE7J",
+        "item_UnVh93",
+        "item_jb4bz3",
+        "item_NR9LAt",
+        "item_TCjzMD"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "media_grid_xJTGK4": {
+      "type": "media-grid",
+      "name": "Media grid",
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_knC8ch": {
+      "type": "slideshow",
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_8VjgEy",
+    "media_grid_ftRHQE",
+    "multi_column_WGRDUJ",
+    "rich_text_Xi96hw",
+    "video_jYV3Pt",
+    "media_with_text_FBPe63",
+    "rich_text_j7LbAj",
+    "174573746080f5a5ed",
+    "multi_column_TPca7p",
+    "rich_text_Vmt3B3",
+    "image_with_text_overlay_pWGtTJ",
+    "rich_text_xtaGMP",
+    "video_nJrJYY",
+    "image_with_text_overlay_wxMRUj",
+    "comparison_table_FHHErd",
+    "specification_table_JwkeTd",
+    "faq_rTJYpG",
+    "media_grid_xJTGK4",
+    "slideshow_knC8ch"
+  ]
+}

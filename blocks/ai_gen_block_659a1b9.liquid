@@ -1,0 +1,150 @@
+{% doc %}
+  @prompt
+    adjustable height divider with no content in it 
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-height-divider-{{ ai_gen_id }} {
+    width: 100%;
+    height: {{ block.settings.divider_height }}px;
+    background-color: {{ block.settings.divider_color }};
+    border-radius: {{ block.settings.border_radius }}px;
+    opacity: {{ block.settings.opacity | divided_by: 100.0 }};
+    margin: {{ block.settings.margin_top }}px auto {{ block.settings.margin_bottom }}px;
+    max-width: {{ block.settings.max_width }}%;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-height-divider-{{ ai_gen_id }} {
+      height: {{ block.settings.divider_height_mobile }}px;
+      margin: {{ block.settings.margin_top_mobile }}px auto {{ block.settings.margin_bottom_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<div
+  class="ai-height-divider-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+></div>
+
+{% schema %}
+{
+  "name": "Height divider",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Desktop"
+    },
+    {
+      "type": "range",
+      "id": "divider_height",
+      "min": 5,
+      "max": 200,
+      "step": 5,
+      "unit": "px",
+      "label": "Height",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Top spacing",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom spacing",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Mobile"
+    },
+    {
+      "type": "range",
+      "id": "divider_height_mobile",
+      "min": 5,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "Height",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "margin_top_mobile",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "label": "Top spacing",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom_mobile",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom spacing",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Color",
+      "default": "#e5e5e5"
+    },
+    {
+      "type": "range",
+      "id": "opacity",
+      "min": 10,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "Opacity",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Width",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Corner radius",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Height divider"
+    }
+  ]
+}
+{% endschema %}

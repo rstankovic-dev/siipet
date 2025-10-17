@@ -1,0 +1,85 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.joy01-tester.json",
+  "context": {
+    "market": "germany"
+  },
+  "sections": {
+    "1748514390c0a116e8": {
+      "settings": {},
+      "blocks": {
+        "forms_inline_qpJ76x": {
+          "settings": {
+            "form_id": "486932"
+          }
+        }
+      }
+    },
+    "image_with_text_overlay_XFzczd": {
+      "settings": {},
+      "blocks": {
+        "heading_Ni8Y8B": {
+          "settings": {
+            "text": "Nimm am exklusiven Testprogramm für intelligente Katzenpflege teil"
+          }
+        },
+        "richtext_FC4T8n": {
+          "settings": {
+            "content": "<p>Katzen sind Meister darin, Schmerzen zu verbergen – doch Veränderungen im Verhalten in der Katzentoilette können frühe Anzeichen für Gesundheitsprobleme wie Harnwegsinfekte, Verstopfung oder Stress sein.</p>"
+          }
+        }
+      }
+    },
+    "rich_text_4WRRyi": {
+      "settings": {},
+      "blocks": {
+        "richtext_pk4VmH": {
+          "settings": {
+            "content": "<p>Deshalb haben wir eine intelligente Kamera für die Katzentoilette mit KI-Technologie entwickelt. Sie überwacht das Toilettenverhalten deiner Katze, erkennt Auffälligkeiten – und warnt dich rechtzeitig, bevor kleine Probleme ernst werden.</p><ul><li>Fülle das Formular unten aus, um dich zu registrieren</li><li>Erhalte die Kamera kostenlos, wenn du ausgewählt wirst</li><li>Teile anschließend dein Feedback mit uns</li></ul>"
+          }
+        }
+      }
+    },
+    "image_with_text_overlay_ciYhUt": {
+      "settings": {},
+      "blocks": {
+        "heading_AGRCxK": {
+          "settings": {
+            "text": "Was macht diese Kamera smart?"
+          }
+        }
+      }
+    },
+    "media_with_text_kkFdhh": {
+      "settings": {},
+      "blocks": {
+        "image_XErYhc": {
+          "settings": {
+            "title": "KI-gestützte Gesundheitsüberwachung",
+            "content": "<p>Jeder Besuch in der Katzentoilette wird automatisch protokolliert – wie oft, wie lange und was zurückbleibt. Die KI erkennt Warnsignale wie veränderte Häufigkeit, ungewöhnlich lange Aufenthaltsdauer oder Auffälligkeiten bei Form und Farbe des Kots. Man kann sie sich wie einen Gesundheitsassistenten vorstellen, der niemals schläft.</p>"
+          }
+        },
+        "image_MKpfGR": {
+          "settings": {
+            "title": "Automatische Aufnahme & Echtzeit-Benachrichtigungen",
+            "content": "<p>Die Kamera schaltet sich nur ein, wenn deine Katze die Katzentoilette betritt. Sie nimmt HD-Videos auf und sendet sofort eine Warnung, wenn etwas nicht stimmt. Über die App kannst du jederzeit live nachsehen.</p>"
+          }
+        },
+        "image_Yh6Edt": {
+          "settings": {
+            "title": "Erkennung mehrerer Katzen",
+            "content": "<p>Unser System kann einzelne Katzen erkennen und verfolgen – so weißt du immer, welche Katze wann in der Katzentoilette war und wie alles aussah. Egal, ob du mit einer kleinen Prinzessin oder einer ganzen Katzenbande zusammenlebst – diese Kamera behält den Überblick.</p>"
+          }
+        }
+      }
+    }
+  }
+}

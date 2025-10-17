@@ -1,0 +1,29 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.joy01-submit.json",
+  "context": {
+    "market": "法国"
+  },
+  "sections": {
+    "media_with_text_BpbGFh": {
+      "settings": {},
+      "blocks": {
+        "image_MHXX7g": {
+          "settings": {
+            "title": "Merci pour votre inscription !",
+            "content": "<p>En attendant, nous vous invitons à rejoindre notre groupe officiel de testeurs, un espace privé où les premiers utilisateurs comme vous peuvent :</p><p>🐾 Échanger avec d’autres amoureux des chats</p><p>📢 Recevoir des nouvelles sur la sélection et l’expédition</p><p>💬 Partager astuces, retours d’expérience et impressions</p><p>🎁 Accéder à des contenus exclusifs et à de futurs avantages</p>",
+            "link_text": "Rejoignez-nous maintenant"
+          }
+        }
+      }
+    }
+  }
+}

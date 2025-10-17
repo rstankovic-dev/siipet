@@ -1,0 +1,879 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_UcFYEW": {
+      "type": "slideshow",
+      "blocks": {
+        "image_k3Hk8d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_77a9dc45-bf12-4c9c-9755-46ff9f6535a5.jpg",
+            "content_max_width": 860,
+            "mobile_text_position": "place-self-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "The world's first AI-powered health monitor  dedicated to feline litter box behavior",
+            "title": "<p><em>Litterlens</em> Cat Litter Box Camera</p>",
+            "heading_tag": "h0",
+            "button_text": "Subcribe Now",
+            "button_link": "https://siipet.com/pages/litterlens-prelaunch",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 5,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_JQntCk": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Hero_Banner_-1.jpg",
+            "mobile_image": "shopify://shop_images/Banner_-_M_-_4.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "PawTrack Camera - Always On Your Mind, Always In Your Care.",
+            "title": "<p>Effortlessly Stay Connected to Your Pet's World.</p>",
+            "heading_tag": "h2",
+            "button_text": "Learn More",
+            "button_link": "shopify://products/pawtrack-camera",
+            "text_color": "#ffffff",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_V3E3R8": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SKY_5648_1.jpg",
+            "mobile_image": "shopify://shop_images/SKY_5476_1.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center-start text-start",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "subheading": "Cat Litter Box Camera — Be First, Try Free",
+            "title": "<p>Decode Hidden Signs of Your Cat’s Health with Every Litter Box Visit.</p>",
+            "heading_tag": "h2",
+            "button_text": "Learn More",
+            "button_link": "https://siipet.com/pages/j1-tester-program",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_k3Hk8d",
+        "image_JQntCk",
+        "image_V3E3R8"
+      ],
+      "custom_css": [
+        ".h0 p {margin: 10px 0; font-size: 64px;}",
+        ".h0 p em {font-family: PlayfairDisplay; font-weight: bold;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": true,
+        "image_size": "fill",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 20,
+        "background": "#ffffff",
+        "background_gradient": ""
+      }
+    },
+    "newsletter_RkRk4b": {
+      "type": "newsletter",
+      "custom_css": [
+        "h2 {font-size: 40px; font-weight: normal;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_icon": false,
+        "title": "Subscribe now and get XX% off.",
+        "content": "<p>Subscribe now to enjoy the early-bird discount and gain access to the latest insights in the pet industry</p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "#ff6a3b",
+        "background_gradient": "linear-gradient(45deg, rgba(237, 228, 217, 1), rgba(211, 217, 211, 1) 100%)",
+        "text_color": "#000000",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000"
+      }
+    },
+    "rich_text_gY86ew": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MMfktj": {
+          "type": "heading",
+          "settings": {
+            "text": "Product Features",
+            "heading_tag": "h1",
+            "text_color": "#333333",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_MMfktj"
+      ],
+      "custom_css": [
+        ".h1 {font-weight: 900; font-size: 55px;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_668CNH": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_X8etey": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1_1.png",
+            "media_width": 45,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Smart Behavior Tracking& Instant Alerts",
+            "content": "<p>AI tracks litter box visits and flags frequent entries, long stays, or painful postures—early signs of urinary issues. Instant alerts help you act quickly for faster care and a healthier cat.</p><ul><li>Behavior tracking: entries, duration, posture</li><li>Real-time alerts: early warning of UTI or obstruction</li><li>Data visualization: easy-to-read health history<br/><br/><br/></li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#333333",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_X8etey"
+      ],
+      "disabled": true,
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "multi_column_6aP6LF": {
+      "type": "multi-column",
+      "blocks": {
+        "item_xGkUbe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1_1.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Behavior tracking",
+            "heading_tag": "h4",
+            "content": "<p>Behavior tracking: entries, duration, posture</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_AanNDc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2-01.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Real-time alerts",
+            "heading_tag": "h4",
+            "content": "<p>Real-time alerts: early warning of UTI or obstruction</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_6taJ94": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1_2.png",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Data visualization",
+            "heading_tag": "h4",
+            "content": "<p>Data visualization: easy-to-read health history</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_xGkUbe",
+        "item_AanNDc",
+        "item_6taJ94"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Smart Behavior Tracking& Instant Alerts",
+        "content": "<p>AI tracks litter box visits and flags frequent entries, long stays, or painful postures—early signs of urinary issues. Instant alerts help you act quickly for faster care and a healthier cat.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_jEyPYq": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_ndmVDD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Siipet__Landing_Heade.png",
+            "media_width": 45,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "AI Detection for Stool Abnormalities",
+            "content": "<p>AI vision captures your cat’s stool before it’s buried, detecting issues like diarrhea, soft stool, or blood. Instant alerts give you a head start on treatment, while stored images provide clear records for your vet.<br/></p><ul><li>Real-time detection of stool abnormalities</li><li>High-definition photo evidence saved automatically</li><li>Improves vet communication, reduces misdiagnosis<br/><br/><br/><br/><br/></li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#333333",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ndmVDD"
+      ],
+      "disabled": true,
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "media_with_text_LzAtiE": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_NExQAe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1.png",
+            "media_width": 45,
+            "media_position": "start",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Advanced Multi-Cat Recognition Technology",
+            "content": "<p>Each cat gets a unique AI “fingerprint,” ensuring every litter box visit is tracked to the right pet. Unlike weight-based sensors, our vision algorithm delivers accurate results—even in multi-cat homes with similar body sizes.</p><ul><li>Behavior tracking: entries, duration, posture</li><li>Real-time alerts: early warning of UTI or obstruction</li><li>Data visualization: easy-to-read health history<br/><br/><br/><br/><br/></li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#333333",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_NExQAe"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "multi_column_JUgwRQ": {
+      "type": "multi-column",
+      "blocks": {
+        "item_MzLFqy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_944fee0b-e4ec-4fb0-a450-dc506209ac1b.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Real-time",
+            "heading_tag": "h4",
+            "content": "<p>Real-time detection of stool abnormalities</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_P8mVJK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2-02.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "High-definition",
+            "heading_tag": "h4",
+            "content": "<p>High-definition photo evidence saved automatically</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_qF6TtW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Image_1400x1400_from_Siipet.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Improves",
+            "heading_tag": "h4",
+            "content": "<p>Improves vet communication, reduces misdiagnosis</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_MzLFqy",
+        "item_P8mVJK",
+        "item_qF6TtW"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "AI Detection for Stool Abnormalities",
+        "content": "<p>AI vision captures your cat’s stool before it’s buried, detecting issues like diarrhea, soft stool, or blood. Instant alerts give you a head start on treatment, while stored images provide clear records for your vet.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_Ra4TWT": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_NK3UHA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2.png",
+            "media_width": 45,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Individual Health Timelines for Each Cat",
+            "content": "<p>Every cat gets its own health log, with charts showing stool frequency and condition for a clear, visualized record of well-being. Track real-time updates and review up to 12 months of history with a subscription.</p><ul><li>Independent health timeline for each cat</li><li>Easy-to-read charts of frequency & condition</li><li>Stores up to 12 months of data (subscription)<br/><br/><br/><br/><br/></li></ul>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#333333",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_NK3UHA"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "1760040609b978f5af": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_5cf8c64_a88rPg": {
+          "type": "ai_gen_block_5cf8c64",
+          "settings": {
+            "heading": "Individual Health Timelines for Each Cat",
+            "subheading": "",
+            "body_text": "<p>Every cat gets its own health log, with charts showing stool frequency and condition for a clear, </p><p>visualized record of well-being. Track real-time updates and review up to 12 months of history with a subscription.<br/><br/></p>",
+            "text_alignment": "center",
+            "columns_desktop": "4",
+            "columns_mobile": "1",
+            "column_gap": 24,
+            "background_color": "#ffffff",
+            "section_padding_top": 64,
+            "section_padding_bottom": 64,
+            "header_spacing": 32,
+            "content_spacing": 40,
+            "heading_color": "#333333",
+            "subheading_color": "#666666",
+            "body_text_color": "#333333",
+            "heading_size": 32,
+            "subheading_size": 18,
+            "body_text_size": 16,
+            "column_background_color": "#ffffff",
+            "column_border_radius": 0,
+            "column_padding": 24,
+            "column_text_alignment": "center",
+            "shadow_opacity": 5,
+            "shadow_vertical_offset": 4,
+            "shadow_blur": 12,
+            "media_height": 200,
+            "media_border_radius": 10,
+            "media_spacing": 16,
+            "column_title_color": "#333333",
+            "column_text_color": "#666666",
+            "column_title_size": 20,
+            "column_text_size": 14,
+            "column_1_enabled": true,
+            "column_1_image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1_2.png",
+            "column_1_video": "",
+            "column_1_title": "Column 1",
+            "column_1_text": "<p>Independent health timeline for each cat</p>",
+            "column_2_enabled": true,
+            "column_2_image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1_2.png",
+            "column_2_video": "",
+            "column_2_title": "Column 2",
+            "column_2_text": "<p>Easy-to-read charts of frequency & condition</p>",
+            "column_3_enabled": true,
+            "column_3_image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1_2.png",
+            "column_3_video": "",
+            "column_3_title": "Column 3",
+            "column_3_text": "<p>Stores up to 12 months of data (subscription)<br/><br/></p>",
+            "column_4_enabled": true,
+            "column_4_image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1_2.png",
+            "column_4_video": "",
+            "column_4_title": "Column 4",
+            "column_4_text": "<p>Add your content here</p>",
+            "column_5_enabled": false,
+            "column_5_video": "",
+            "column_5_title": "Column 5",
+            "column_5_text": "<p>Add your content here</p>",
+            "column_6_enabled": false,
+            "column_6_video": "",
+            "column_6_title": "Column 6",
+            "column_6_text": "<p>Add your content here</p>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_5cf8c64_a88rPg"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_F3J7rj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QYUw4y": {
+          "type": "heading",
+          "settings": {
+            "text": "Individual Health Timelines for Each Cat",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_aJY4et": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Every cat gets its own health log, with charts showing stool frequency and condition for a clear, visualized record of well-being. Track real-time updates and review up to 12 months of history with a subscription.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QYUw4y",
+        "richtext_aJY4et"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multiple_images_with_text_TwVm3B": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_mMzqNi": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1_2.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Independent",
+            "content": "<p>Independent health timeline for each cat</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_7GBpp3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1.png",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Easy-to-read",
+            "content": "<p>Easy-to-read charts of frequency & condition</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_biwQfF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b_1_1.png",
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "Image with text",
+            "content": "<p>Stores up to 12 months of data (subscription)</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_mMzqNi",
+        "item_7GBpp3",
+        "item_biwQfF"
+      ],
+      "disabled": true,
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "multi_column_zLVFpL": {
+      "type": "multi-column",
+      "blocks": {
+        "item_cwQmGb": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Siipet Product Hero Video.mp4",
+            "show_controls": false,
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_wgdKT3": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/主视频_加字幕已校对_1.mp4",
+            "show_controls": false,
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_cwQmGb",
+        "item_wgdKT3"
+      ],
+      "custom_css": [
+        ".h2 {font-size: 55px;}"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "What Influencers Are Saying",
+        "content": "",
+        "background": "#f8f7ec",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "testimonials_Ep7fNq": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_tMGphn": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_4.png",
+            "round_avatar": true,
+            "show_rating": false,
+            "rating": 4,
+            "author": "Norain Bsocb",
+            "title": "",
+            "content": "<p>I’m really happy and satisfied with SiiPet. It will auto track their movements wherever they might be instead of doing it manually. It’s truly money well invested!</p>"
+          }
+        },
+        "testimonial_iHaeJH": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/1280X1280_1.jpg",
+            "round_avatar": true,
+            "show_rating": false,
+            "rating": 4,
+            "author": "Candee Edwards",
+            "title": "",
+            "content": "<p>I have one of these and it actually saved me money! My kitten was licking her paw a lot. I was able to use the video to see that she was at the window when it started.</p>"
+          }
+        },
+        "testimonial_Efx4kM": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/1280X1280_4.jpg",
+            "round_avatar": true,
+            "show_rating": false,
+            "rating": 4,
+            "author": "Pete Lewis",
+            "title": "",
+            "content": "<p>Overall on first impression, after using this for over a couple months, a superb camera, highly recommend it - easy to use - quality product.</p>"
+          }
+        },
+        "testimonial_GTPkXh": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/467684563_10233781305583805_7471782081614784109_n.jpg",
+            "round_avatar": true,
+            "show_rating": false,
+            "rating": 4,
+            "author": "Jeanne Ong Li",
+            "title": "",
+            "content": "<p>Love this camera and the highlights it catches. Thank you SiiPet for this amazing video capture. </p>"
+          }
+        },
+        "testimonial_3AiQez": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/1280X1280_3.jpg",
+            "round_avatar": true,
+            "show_rating": false,
+            "rating": 4,
+            "author": "Takahiro Inoue",
+            "title": "",
+            "content": "<p>I bought many kind of webcam....google nest,amazon ring ta-po....But SiiPET is awesome!! perfect!! super!! great!!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_tMGphn",
+        "testimonial_iHaeJH",
+        "testimonial_Efx4kM",
+        "testimonial_GTPkXh",
+        "testimonial_3AiQez"
+      ],
+      "custom_css": [
+        ".h2 {font-size: 55px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "The Reviews Are In",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#333333",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "#939a9e",
+        "testimonial_card_text_color": "#ffffff"
+      }
+    },
+    "media_with_text_YTVEiF": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_WanRN7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Link_The_Science_Behind_LitterLens__AI-Powered_Technology_for_Monitoring_Your_Cat_s_Health.png",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Community Entrnce",
+            "content": "<p>Track stool frequency and condition with 12-month history for accurate monitoring.</p>",
+            "link_text": "Learn More",
+            "link_url": "shopify://pages/collab",
+            "background": "#f8f7ec",
+            "background_gradient": "",
+            "text_color": "#333333",
+            "text_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#1a1a1a"
+          }
+        }
+      },
+      "block_order": [
+        "image_WanRN7"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": true,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "newsletter_bziQjK": {
+      "type": "newsletter",
+      "custom_css": [],
+      "name": "Newsletter",
+      "settings": {
+        "full_width": false,
+        "image": "shopify://shop_images/siipet_litterlensdesk.jpg",
+        "show_icon": false,
+        "title": "Subscribe now and get XX% off.",
+        "content": "<p>Subscribe now to enjoy the early-bird discount and gain access to the latest insights in the pet industry</p>",
+        "button_text": "Subscribe",
+        "subtext": "By submitting your email, you agree to the Terms and Conditions and to receive updates on the latest products and promotions via email or other channels.",
+        "background": "#ff6a3b",
+        "background_gradient": "linear-gradient(45deg, rgba(237, 228, 217, 1), rgba(211, 217, 211, 1) 100%)",
+        "text_color": "#1a1a1a",
+        "button_background": "#ffffff",
+        "button_text_color": "#333333"
+      }
+    },
+    "text_with_icons_er4pQx": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_a3JqEN": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Secure payment",
+            "content": "<p>Payment information processed securely.</p>"
+          }
+        },
+        "item_kzgXzE": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free shipping",
+            "content": "<p>In selected countries/regions.</p>"
+          }
+        },
+        "item_WbRkAt": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-happy",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "1-Year Warranty",
+            "content": "<p>Shop w/ confidence and peace of mind.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_a3JqEN",
+        "item_kzgXzE",
+        "item_WbRkAt"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "slideshow_UcFYEW",
+    "newsletter_RkRk4b",
+    "rich_text_gY86ew",
+    "media_with_text_668CNH",
+    "multi_column_6aP6LF",
+    "media_with_text_jEyPYq",
+    "media_with_text_LzAtiE",
+    "multi_column_JUgwRQ",
+    "media_with_text_Ra4TWT",
+    "1760040609b978f5af",
+    "rich_text_F3J7rj",
+    "multiple_images_with_text_TwVm3B",
+    "multi_column_zLVFpL",
+    "testimonials_Ep7fNq",
+    "media_with_text_YTVEiF",
+    "newsletter_bziQjK",
+    "text_with_icons_er4pQx"
+  ]
+}

@@ -1,0 +1,310 @@
+{%- if section.blocks.size > 0 -%}
+  {%- render 'section-spacing-collapsing' -%}
+
+  <style>
+    @media screen and (min-width: 700px) {
+      #shopify-section-{{ section.id }} {
+        --tabs-max-width: {% if section.settings.content_size == 'small' %}760{% elsif section.settings.content_size == 'medium' %}1000{% elsif section.settings.content_size == 'large' %}1260{% endif %}px;
+        --section-stack-spacing-block: var(--spacing-8);
+      }
+    }
+
+    @media screen and (min-width: 1400px) {
+      #shopify-section-{{ section.id }} {
+        --section-stack-spacing-block: var(--spacing-10);
+      }
+    }
+    #shopify-section-{{ section.id }} .section {
+        padding-bottom: 0;
+    }
+
+    #shopify-section-{{ section.id }} .section a {
+        padding: 0;
+    }
+    #shopify-section-{{ section.id }} {
+        position: fixed;
+        top: 135px;
+        width: 100%;
+        z-index: 9;
+        background: white;
+        border-top: solid 1px;
+    }
+    @media(max-width: 768px) {
+        #shopify-section-{{ section.id }} {
+            top: 118px;
+        }
+        #shopify-section-{{ section.id }} {
+            .tabs-container {
+                overflow-x: auto;
+            }
+            .tabs-inner {
+                display: flex;
+                width: max-content;
+                gap: 10px;
+            }
+        }
+    }
+
+    .tabs-nav__button.active-tab {
+        border-bottom: 2px solid var(--color-primary, black);
+        font-weight: bold;
+    }
+    
+  </style>
+
+  <div {% render 'section-properties' %}>
+    <div class="tabs">
+      <div class="section-stack">
+        {%- if section.settings.subheading != blank or section.settings.title != blank -%}
+          <div class="prose text-center">
+            {%- if section.settings.subheading != blank -%}
+              <p class="subheading">{{ section.settings.subheading | escape }}</p>
+            {%- endif -%}
+
+            {%- if section.settings.title != blank -%}
+              <p class="h2">{%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient -%}</p>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+
+        <div class="tabs-container">
+
+          <div class="tabs-inner sm:text-{{ section.settings.text_alignment | replace: 'left', 'start' | replace: 'right', 'end' }}">
+            <template shadowrootmode="open">
+              <slot role="tablist" part="tab-list" name="title"></slot>
+              <slot part="tab-panels" name="content"></slot>
+            </template>
+
+            {%- for block in section.blocks -%}
+              {%- liquid
+                assign title = block.settings.title | default: block.settings.page.title
+              -%}
+
+              {%- if title != blank -%}
+                {%- if block.settings.linked_section_id != blank -%}
+                  <a slot="title" href="#{{ block.settings.linked_section_id }}" class="tabs-nav__button bold text-subdued text-center" {{ block.shopify_attributes }}>{{ title | escape }}</a>
+                {%- else -%}
+                  <button type="button" slot="title" class="tabs-nav__button bold text-subdued text-center" {{ block.shopify_attributes }}>{{ title | escape }}</button>
+                {%- endif -%}
+              {%- endif -%}
+            {%- endfor -%}
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const tabSection = document.querySelector("#shopify-section-{{ section.id }}");
+    if (!tabSection) return;
+
+    const tabButtons = tabSection.querySelectorAll(".tabs-nav__button");
+
+    const linkedIds = [
+        {% for block in section.blocks %}
+        {% if block.settings.linked_section_id != blank %}
+            "{{ block.settings.linked_section_id }}",
+        {% endif %}
+        {% endfor %}
+    ].filter(Boolean);
+
+    const targetSections = linkedIds
+        .map(id => document.getElementById(id))
+        .filter(Boolean);
+
+    // Handle tab click
+    tabButtons.forEach((btn, index) => {
+        btn.addEventListener("click", (e) => {
+        tabButtons.forEach(b => b.classList.remove("active-tab"));
+        btn.classList.add("active-tab");
+        });
+    });
+
+    if (targetSections.length === 0) return;
+
+    tabSection.style.display = "none";
+
+    let lastScrollY = window.scrollY;
+    let ticking = false;
+
+    function handleScroll() {
+        const viewportHeight = window.innerHeight;
+        const scrollY = window.scrollY;
+        let isInAnySection = false;
+
+        targetSections.forEach((section, index) => {
+        const rect = section.getBoundingClientRect();
+        const top = rect.top + scrollY;
+        const bottom = top + rect.height;
+
+        // Check if section is in viewport
+        if (scrollY + viewportHeight / 2 > top && scrollY + viewportHeight / 2 < bottom) {
+            tabButtons.forEach(b => b.classList.remove("active-tab"));
+            if (tabButtons[index]) tabButtons[index].classList.add("active-tab");
+            isInAnySection = true;
+        }
+        });
+
+        tabSection.style.display = isInAnySection ? "block" : "none";
+
+        // Scroll direction
+        const scrollingDown = scrollY > lastScrollY;
+        const isMobile = window.innerWidth <= 768;
+
+        tabSection.style.top = scrollingDown ? (isMobile ? "71px" : "55px") : (isMobile ? "118px" : "135px");
+
+        lastScrollY = scrollY;
+        ticking = false;
+    }
+
+    window.addEventListener("scroll", () => {
+        if (!ticking) {
+        window.requestAnimationFrame(handleScroll);
+        ticking = true;
+        }
+    }, { passive: true });
+    });
+
+</script>
+
+{% schema %}
+{
+  "name": "Tabs",
+  "class": "shopify-section--tabs",
+  "disabled_on": {
+    "groups": ["header"]
+  },
+  "max_blocks": 5,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "content_size",
+      "label": "Content size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+          "value": "fill",
+          "label": "Fill page"
+        }
+      ],
+      "default": "medium"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Heading"
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_alignment",
+      "label": "Desktop text alignment",
+      "default": "center"
+    },
+    {
+      "type": "checkbox",
+      "id": "first_tab_open",
+      "label": "Open first tab on mobile"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Rich-text content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Tab"
+        },
+        {
+          "type": "text",
+          "id": "linked_section_id",
+          "label": "Linked section ID"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Sticky Tabs",
+      "blocks": [
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 1",
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+          }
+        },
+        {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

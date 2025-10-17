@@ -1,0 +1,29 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.joy01-submit.json",
+  "context": {
+    "market": "germany"
+  },
+  "sections": {
+    "media_with_text_BpbGFh": {
+      "settings": {},
+      "blocks": {
+        "image_MHXX7g": {
+          "settings": {
+            "title": "Danke für deine Bewerbung!",
+            "content": "<p>In der Zwischenzeit laden wir dich herzlich ein, unserer offiziellen Tester-Gruppe beizutreten — ein privater Bereich, in dem Frühnutzer wie du:</p><p>🐾 Dich mit anderen Katzenbesitzern vernetzen</p><p>📢 Updates zu Auswahl und Versand erhalten</p><p>💬 Tipps, Feedback und Erfahrungen austauschen</p><p>🎁 Exklusive Inhalte und zukünftige Vorteile genießen können</p>",
+            "link_text": "Jetzt beitreten"
+          }
+        }
+      }
+    }
+  }
+}

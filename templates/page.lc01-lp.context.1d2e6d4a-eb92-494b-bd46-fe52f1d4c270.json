@@ -1,0 +1,27 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.lc01-lp.json",
+  "context": {
+    "market": "1d2e6d4a-eb92-494b-bd46-fe52f1d4c270"
+  },
+  "sections": {
+    "slideshow_n9By9B": {
+      "settings": {},
+      "blocks": {
+        "image_JTX7PG": {
+          "settings": {
+            "button_link": "shopify://products/pawtrack-camera"
+          }
+        }
+      }
+    }
+  }
+}

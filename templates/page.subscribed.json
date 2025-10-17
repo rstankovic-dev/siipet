@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "rich_text_aYKzVT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wn6P4N": {
+          "type": "heading",
+          "settings": {
+            "text": "You’re Now Subscribed!",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_wn6P4N"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_8hXQPy": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_yjwC4G": {
+          "type": "heading",
+          "settings": {
+            "text": "Join Our LitterLens Lab Group on Facebook",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_iJNUrq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Connect with us on Facebook and stay up to date with the latest from <strong>LitterLens</strong>!</p>"
+          }
+        },
+        "button_FPUwN3": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "JOIN NOW",
+            "url": "https://www.facebook.com/groups/23907124735566913",
+            "background": "#ffffff",
+            "text_color": "#1a1a1a"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yjwC4G",
+        "richtext_iJNUrq",
+        "button_FPUwN3"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/1_5c916444-52b0-4945-b056-037afe9639eb.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "media_with_text_mfrxtz": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_ndXa7q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Product_in_Use_-_2.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Exclusive Early Bird Pricing",
+            "content": "<p>For just <strong>$1</strong>, you can secure <strong>LitterLens</strong> at unbeatable prices before it officially launches. Don’t miss your chance to save:</p><p>69.99 USD for <strong>LitterLens with 1-Year Premium Plan</strong> (Original Price: <strong>$188.79</strong>) – Save <strong>$118.80</strong>!</p>",
+            "link_text": "Learn More",
+            "link_url": "shopify://products/litterlens-early-bird-deposit",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#1a1a1a"
+          }
+        }
+      },
+      "block_order": [
+        "image_ndXa7q"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_aYKzVT",
+    "image_with_text_overlay_8hXQPy",
+    "media_with_text_mfrxtz"
+  ]
+}

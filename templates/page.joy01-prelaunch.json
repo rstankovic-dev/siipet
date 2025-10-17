@@ -1,0 +1,543 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "image_with_text_overlay_icRPkE": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_QRPpyz": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Is Monitoring Litter Box Habits Important?",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_ng8cGb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Changes in your cat’s litter box behavior can be early indicators of health issues, ranging from digestive problems to urinary tract infections. By keeping track of your cat's litter box usage over time, you can identify trends that may require veterinary attention.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QRPpyz",
+        "richtext_ng8cGb"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/73aeb0645bd511273a9af7c9bcaa66fd.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_K3xDQz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KVbDGb": {
+          "type": "heading",
+          "settings": {
+            "text": "LitterLens: the smart, space-saving litter box camera that brings AI-powered health insights to multi-cat families and single-cat homes alike.",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_pnzr6n": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_KVbDGb",
+        "richtext_pnzr6n"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "newsletter_pgRJ8h": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/16.jpg",
+        "show_icon": false,
+        "title": "Meet LitterLens This Fall",
+        "content": "<p>The smart cat litter box camera that tracks every cat’s visits, flags changes, and sends early alerts—helping your cats stay healthier, longer.</p><p>Early-bird pricing starts at $49.99 USD. Enter your email below to get updates and unlock exclusive offers.</p>",
+        "button_text": "Subscribe",
+        "subtext": "By signing up, you agree to receive updates from us.",
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#1a1a1a"
+      }
+    },
+    "media_with_text_NTb9KR": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_fpmtya": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Effortless Setup",
+            "content": "<p>Mount using adhesive pads or clip brackets, connect to Wi-Fi, and start monitoring. Compatible with large and above-sized manual litter boxes.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_JgeEbN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/16.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Litter Visit, Logged with Precision",
+            "content": "<p>Know your cat’s frequency and duration of litter visits for reliable health tracking.</p><p><strong>CatSense+</strong> technology uses both motion sensors and image analysis to detect when a cat is at the litter box—ensuring only genuine visits are logged and tracked, not just random movement.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_xPHkC3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_2ee60163-9023-460b-ab3a-4437b70bcb3c.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Spot Cat Health Changes Early",
+            "content": "<p>Stay on top of weekly and monthly trends, and spot changes before they become problems. Get instant alerts for abnormal stool — and snap a vet-ready photo with ease.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_NQLef3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_5222e7d0-bbea-4316-b8da-27b2a611328e.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Understand Each Cat’s Litter Habits",
+            "content": "<p>Track every cat individually, so no change goes unnoticed in your multi‑cat home.</p><p><strong>Pet ID+</strong> distinguishes between your cats, creating individual profiles so you can review each pet’s litter box patterns.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fpmtya",
+        "image_JgeEbN",
+        "image_xPHkC3",
+        "image_NQLef3"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "slideshow_UAxCQq": {
+      "type": "slideshow",
+      "blocks": {
+        "image_eLKAcz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Product_in_Use_-_2.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "How We Make Sure Your Privacy Is a Priority",
+            "title": "LitterLens Privacy Shield",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_eLKAcz"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "sm",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "accordion_content_UpBgWj": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_pFFcCd": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-star",
+            "icon_width": 20,
+            "title": "Smart Activation w/ CatSense+",
+            "content": "<p>The camera only records when needed, activated by the cat's presence, and stops once they leave.</p>",
+            "page": ""
+          }
+        },
+        "item_xQremJ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 20,
+            "title": "Sleep Mode",
+            "content": "<p>Easily toggle via the app to turn off the camera and stop all data collection.</p>",
+            "page": ""
+          }
+        },
+        "item_FHL8q7": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "icon_width": 20,
+            "title": "Live View Control",
+            "content": "<p>Requires manual activation, with video stream access blocked for third-party apps.</p>",
+            "page": ""
+          }
+        },
+        "item_33GeYj": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-return",
+            "icon_width": 20,
+            "title": "Data Deletion",
+            "content": "<p>Delete videos at any time from local storage and the cloud.</p>",
+            "page": ""
+          }
+        },
+        "item_WGE6Px": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-validation",
+            "icon_width": 20,
+            "title": "Secure Communication",
+            "content": "<p>Encrypted data transmission (AES256) ensures only authorized devices can decrypt the data.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_pFFcCd",
+        "item_xQremJ",
+        "item_FHL8q7",
+        "item_33GeYj",
+        "item_WGE6Px"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "multi_column_pRzYTg": {
+      "type": "multi-column",
+      "blocks": {
+        "item_xMnVJM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/17.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Night Light",
+            "heading_tag": "h4",
+            "content": "<p>Clear videos even in complete darkness without startling pets for continuous health monitoring day or night.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_8Q8UzG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/20.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "One-Month Battery Life",
+            "heading_tag": "h4",
+            "content": "<p>One month of battery life reduces charging hassle. Less frequent charging makes monitoring truly worry-free.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_UXArWp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3_9ed61762-ad83-4518-b8f9-1f6b8a0efc93.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "IP65 Rating",
+            "heading_tag": "h4",
+            "content": "<p>Easy to clean under running water for hygiene and convenience. Maintains hygiene, ensuring a clean device.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_xMnVJM",
+        "item_8Q8UzG",
+        "item_UXArWp"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Easy to use. Simple to maintain.",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_f7j7V3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_hrQ86R": {
+          "type": "subheading",
+          "settings": {
+            "text": "From Litter to Insights, Instantly"
+          }
+        },
+        "heading_h4YcG4": {
+          "type": "heading",
+          "settings": {
+            "text": "Who We Are",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_BNUHR4": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We combine intuitive design with AI technology to help pet owners track habits, monitor health, and strengthen the bond with their pets. We create innovative products like the <strong>PawTrack Camera</strong> and <strong>LitterLens</strong> to turn everyday moments into meaningful insights, helping you care for your pets with confidence.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_hrQ86R",
+        "heading_h4YcG4",
+        "richtext_BNUHR4"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/73aeb0645bd511273a9af7c9bcaa66fd.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "blog_posts_WngX8H": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_WiDYD8": {
+          "type": "article",
+          "settings": {
+            "article": "news/siipet-introduces-litterlens-for-smarter-cat-care",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_WiDYD8"
+      ],
+      "name": "Featured blog post",
+      "settings": {
+        "full_width": true,
+        "show_excerpt": true,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "blog_posts_dNXcWp": {
+      "type": "blog-posts",
+      "blocks": {
+        "article_YwrEkp": {
+          "type": "article",
+          "settings": {
+            "article": "news/the-science-behind-litterlens-ai-powered-technology-for-monitoring-your-cat-s-health",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_YwrEkp"
+      ],
+      "name": "Featured blog post",
+      "settings": {
+        "full_width": false,
+        "show_excerpt": true,
+        "show_date": false,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "newsletter_tyBBKM": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "full_width": false,
+        "image": "shopify://shop_images/8_e4fed656-903b-4a22-859f-d2e8222f0360.jpg",
+        "show_icon": false,
+        "title": "Meet LitterLens This Fall",
+        "content": "<p>The smart cat litter box camera that tracks every cat’s visits, flags changes, and alerts you early — so your cats stay healthier, longer.</p><p>Enter your best email below to receive updates and exclusive offers.</p>",
+        "button_text": "Subscribe",
+        "subtext": "By signing up, you agree to receive updates from us.",
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#1a1a1a"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_icRPkE",
+    "rich_text_K3xDQz",
+    "newsletter_pgRJ8h",
+    "media_with_text_NTb9KR",
+    "slideshow_UAxCQq",
+    "accordion_content_UpBgWj",
+    "multi_column_pRzYTg",
+    "image_with_text_overlay_f7j7V3",
+    "blog_posts_WngX8H",
+    "blog_posts_dNXcWp",
+    "newsletter_tyBBKM"
+  ]
+}

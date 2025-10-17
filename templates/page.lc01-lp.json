@@ -1,0 +1,1180 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "slideshow_n9By9B": {
+      "type": "slideshow",
+      "blocks": {
+        "image_JTX7PG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SKY_3215_0c6bf4a3-e28e-4a57-8645-968ccf8012c4.jpg",
+            "mobile_image": "shopify://shop_images/Mobile_683d80e7-13ea-47ff-85c6-98b9b9838cc2.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "PawTrack Camera - Always On Your Mind, Always In Your Care.",
+            "title": "Effortlessly Stay Connected to Your Pet's World.",
+            "heading_tag": "h2",
+            "button_text": "Shop Now",
+            "button_link": "shopify://products/pawtrack-camera",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 16,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_JTX7PG"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": true,
+        "image_size": "sm",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_ET6m4N": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nE9NV4": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Introducing the only AI pet camera that auto captures your pet’s best moments.",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_KKEtzg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The PawTrack Camera is built exclusively for pet parents who want to stay close to their furry companions. Designed to track pets only, the camera automatically captures their cutest and most heartwarming moments in stunning 4K. Plus, with AI-driven health alerts, you’ll know right away if something feels off—because peace of mind starts with staying informed.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nE9NV4",
+        "richtext_KKEtzg"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_L6PDjr": {
+      "type": "media-grid",
+      "blocks": {
+        "video_tddAMR": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/SiiPet AI Pet Camera.mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "PawPrints - Adorable Moments in 4K",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_prPYX7": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/SiiPet AI Pet Camera (1).mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "PawTracking",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Terg4x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Framing.png",
+            "title": "SmartFrame AI",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PekfVG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_80c65118-c0cc-4b92-b9b2-654629122032.png",
+            "title": "Wellness Watch",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_p8aqje": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_9296605f-2ea2-40f3-80e6-5b3a83d4354d.png",
+            "title": "Privacy Mode",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jJmwPi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_f1e0d551-fe6a-4f18-b789-3a8d0a317e07.png",
+            "title": "Two-way Audio",
+            "heading_tag": "h5",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 1,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "video_tddAMR",
+        "video_prPYX7",
+        "image_Terg4x",
+        "image_PekfVG",
+        "image_p8aqje",
+        "image_jJmwPi"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "featured_product_bJdqgQ": {
+      "type": "featured-product",
+      "blocks": {
+        "title_nYTkrz": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_g8Pize": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_bWhnC3": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "inventory_MBtDce": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {
+            "low_inventory_threshold": 100
+          }
+        },
+        "offer_QJ7TUx": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-percent",
+            "icon_width": 20,
+            "title": "Free Shipping",
+            "content": "<p>Enjoy free shipping to the <strong>US</strong>, <strong>Canada</strong>, and select locations in Asia, including <strong>Japan, South Korea, Singapore, Mainland China, Hong Kong, Macau, and Taiwan.<br/></strong><br/><em>Please note: the app currently supports English only.</em></p>",
+            "background": "#cef4f8",
+            "text_color": "#005477"
+          }
+        },
+        "separator_jT8G7C": {
+          "type": "separator",
+          "settings": {}
+        },
+        "text_RLTJg3": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Works Out of the Box: All core features work with no subscription required. </li><li>PawTracking: Follows your pet—not people—with 360° spin & 270° tilt</li><li>PawPrints: Auto-captures cute behaviors in 4K</li><li>Wellness Watch: Sends alerts for limping, scratching & more</li><li>Daily Paws: Auto vlog, sorted by pet and behavior</li><li>Pet ID+: Tracks up to 5 pets individually</li><li>SmartFrame AI: Keeps your pet centered in every shot</li><li>Live Check-In: 1080p stream with two-way audio </li><li>Privacy Mode: Stops recording with tilt-down camera</li></ul>"
+          }
+        },
+        "offer_CDcfpJ": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-document",
+            "icon_width": 20,
+            "title": "MUST READ FOR U.S. SHOPPERS",
+            "content": "<p>Our current stock is housed in a local U.S. warehouse, so you <strong>won’t be affected</strong> by tariffs from the Trump administration. We’ll continue to keep our pricing and policies fair and transparent if future shipments are impacted.</p>",
+            "background": "#f2eaea",
+            "text_color": "#f83a3a"
+          }
+        },
+        "description_PDHUad": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_mH7d4K": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "none",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_LCMxFH": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_W6gBNy": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "offer_jkFtzy": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-box",
+            "icon_width": 20,
+            "title": "Free Shipping",
+            "content": "<p>3-Business-Day</p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        },
+        "offer_cz9F7K": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-love",
+            "icon_width": 20,
+            "title": "1-Year Warranty",
+            "content": "<p>Shop w/ Confidence</p>",
+            "background": "#eaf2ed",
+            "text_color": "#00a341"
+          }
+        }
+      },
+      "block_order": [
+        "title_nYTkrz",
+        "badges_g8Pize",
+        "price_bWhnC3",
+        "inventory_MBtDce",
+        "offer_QJ7TUx",
+        "separator_jT8G7C",
+        "text_RLTJg3",
+        "offer_CDcfpJ",
+        "description_PDHUad",
+        "variant_picker_mH7d4K",
+        "quantity_selector_LCMxFH",
+        "buy_buttons_W6gBNy",
+        "offer_jkFtzy",
+        "offer_cz9F7K"
+      ],
+      "settings": {
+        "full_width": false,
+        "product": "pawtrack-camera",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "grid_highlight",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "#ffffff",
+        "input_text_color": ""
+      }
+    },
+    "testimonials_HTLTjb": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_8bkFtm": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/GP.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Gina Perry",
+            "title": "My Pet Now Has a Stalker (and I'm the Stalker-in-Chief)",
+            "content": "<p>Honestly, this camera has brought a new level of surveillance to my life, and I couldn't be happier. It provides peace of mind and endless entertainment watching my pet's secret life unfold.</p>"
+          }
+        },
+        "testimonial_j8i6y6": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_4.png",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Norain Bsocb",
+            "title": "",
+            "content": "<p>I’m really happy and satisfied with SiiPet. It will auto track their movements wherever they might be instead of doing it manually. It’s truly money well invested!</p>"
+          }
+        },
+        "testimonial_b8zM3d": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/1280X1280_1.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Candee Edwards",
+            "title": "",
+            "content": "<p>I have one of these and it actually saved me money! My kitten was licking her paw a lot. I was able to use the video to see that she was at the window when it started.</p>"
+          }
+        },
+        "testimonial_FdQk73": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/1280X1280_4.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Pete Lewis",
+            "title": "",
+            "content": "<p>Overall on first impression, after using this for over a couple months, a superb camera, highly recommend it - easy to use - quality product.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_8bkFtm",
+        "testimonial_j8i6y6",
+        "testimonial_b8zM3d",
+        "testimonial_FdQk73"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "video_UKcHjU": {
+      "type": "video",
+      "blocks": {
+        "play_pm4dpc": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_kdUL7z": {
+          "type": "heading",
+          "settings": {
+            "text": "Watch Video",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "play_pm4dpc",
+        "heading_kdUL7z"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "autoplay": false,
+        "video_size": "lg",
+        "video": "shopify://files/videos/主视频_加字幕已校对_1.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "poster": "shopify://shop_images/Hero_Banner_-1.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 10
+      }
+    },
+    "multi_column_B8j9Ph": {
+      "type": "multi-column",
+      "blocks": {
+        "item_xaDegM": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Free Plan",
+            "heading_tag": "h4",
+            "content": "<p>Your SiiPet Camera works right out of the box with full access to all AI-powered features.<br/></p><h5><strong>No subscription required</strong></h5><p>Includes: </p><p>• PawTracking<br/>• PawPrint (4K/8MP highlight)<br/>• SmartFrame AI <br/>• Multi-pet recognition<br/>• Real-time alerts<br/>• 1080P live view<br/>• Two-way audio <br/>• +1 days of rolling replay history <br/>• 32GB local storage (approx. 2,400 highlights)</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_pbDLzE": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Basic Plan",
+            "heading_tag": "h4",
+            "content": "<p>More playback time, more flexibility. Ideal for keeping and reviewing your pet’s week.</p><h5><strong>$5.99/mo </strong></h5><p>Includes everything in Free</p><p>• +3 days of rolling replay history<br/>• 50 GB cloud storage (approx. 4,400 highlights)<br/>• Faster cloud playback<br/>• Unlimited downloads<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_h88bWW": {
+          "type": "item",
+          "settings": {
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Premium Plan",
+            "heading_tag": "h4",
+            "content": "<p>Maximum history and storage for peace of mind. Perfect for frequent travelers.</p><h5><strong>$9.99/mo</strong></h5><p>Includes everything in Basic </p><p>• +5 days of rolling replay history<br/>• 100 GB cloud storage (approx. 9,000 highlights)<br/>• Faster cloud playback<br/>• Unlimited downloads</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "spacer_wJXKr7": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        }
+      },
+      "block_order": [
+        "item_xaDegM",
+        "item_pbDLzE",
+        "item_h88bWW",
+        "spacer_wJXKr7"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Compare Plans.",
+        "content": "<p>Ready to Use, Upgrade Anytime (Min. 1 Month)</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_8UBPjj": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_TJMJEB": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Ever wondered what your furry friend gets up to all day With the SiiPet AI Pet Camera, you’ll never miss an adorable, funny, or curious moment!   Its 360° 4K Ultra HD lens ensures you catch every tail wag, nap, and snack break—whether .mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "autoplay": false,
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "Never wonder what your dog is up to! ",
+            "title": "",
+            "content": "<p>SiiPet’s highlight feature lets me save all the best clips of my pup’s day. Watch our top moments in real-time or anytime!</p>",
+            "link_text": "Buy Now",
+            "link_url": "shopify://products/pawtrack-camera",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_TJMJEB"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "rich_text_eiQdpH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ty4Ut4": {
+          "type": "heading",
+          "settings": {
+            "text": "Never Lose Sight of Your Pet",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_BGq99Y": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The camera automatically follows your pet with smooth, real-time tracking—so they're always in view, even when they’re on the move.</p>"
+          }
+        },
+        "button_m3PQUp": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Buy Now",
+            "url": "shopify://products/pawtrack-camera",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ty4Ut4",
+        "richtext_BGq99Y",
+        "button_m3PQUp"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_Gjpd9A": {
+      "type": "video",
+      "blocks": {
+        "button_CAHNx9": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "lg",
+            "text": "Buy Now",
+            "url": "shopify://products/pawtrack-camera",
+            "background": "",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "button_CAHNx9"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "video_size": "lg",
+        "video": "shopify://files/videos/Tracking 1.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "media_with_text_U3qq6m": {
+      "type": "media-with-text",
+      "blocks": {
+        "video_ygjKAj": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Untitled design (3).mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 70,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "See it all",
+            "content": "<p>Full 360° spin with 270° tilt</p>",
+            "link_text": "Buy Now",
+            "link_url": "shopify://products/pawtrack-camera",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "video_ygjKAj"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "small"
+      }
+    },
+    "rich_text_QeaJHH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EPh9Mj": {
+          "type": "heading",
+          "settings": {
+            "text": "A Day in Their Life, Organized",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_6Hi4Vz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Daily Paws turns your pet’s everyday moments into a smart, searchable vlog. Every clip is recorded in crisp 1080p and automatically tagged by behavior, so you can relive, review, and understand their day in seconds.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EPh9Mj",
+        "richtext_6Hi4Vz"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_KD4CbK": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/daily_paw_pc.jpg",
+        "mobile_image": "shopify://shop_images/daily_paw.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_trKDL9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9LpBMB": {
+          "type": "heading",
+          "settings": {
+            "text": "Every Shot Looks Its Best",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_xPwKME": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Automatically frames your pet’s highlights, so every photo and video feels thoughtfully composed—no editing needed.</p>"
+          }
+        },
+        "button_NVXE8p": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Buy Now",
+            "url": "shopify://products/pawtrack-camera",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_9LpBMB",
+        "richtext_xPwKME",
+        "button_NVXE8p"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "before_after_image_jCqVKT": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "before_image": "shopify://shop_images/Before.png",
+        "after_image": "shopify://shop_images/After.png",
+        "expand_image": false,
+        "text_position": "start",
+        "before_after_text_position": "top",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
+    "rich_text_eFMJxK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eTNEy8": {
+          "type": "heading",
+          "settings": {
+            "text": "See Every Whisker in Detail",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_HMXHyn": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Capture highlight moments in stunning 4K and watch your pet live in crisp 1080P—so nothing gets lost in the blur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eTNEy8",
+        "richtext_HMXHyn"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_RWdWAK": {
+      "type": "multi-column",
+      "blocks": {
+        "item_eRMPXV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_464fdc92-733e-4619-ad9c-aead1ec8558f.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://products/pawtrack-camera",
+            "link_text": "",
+            "link_style": "button"
+          }
+        },
+        "item_8aaHX4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/490664528_10235456514662985_6662634668132484010_n_967aab03-37f3-49df-b979-55d89287c456.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_6UatqM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1_4742f548-6407-4412-a3f9-33da4fb32171.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_eRMPXV",
+        "item_8aaHX4",
+        "item_6UatqM"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_zmpKP8": {
+      "type": "multi-column",
+      "blocks": {
+        "item_3aRtB3": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Multi.mp4",
+            "show_controls": false,
+            "column_size": "2",
+            "title": "Tailored Memories for Every Pet",
+            "heading_tag": "h4",
+            "content": "<p>SiiPet recognizes each of your pets and organizes their moments separately—so everyone gets their share of the spotlight.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_m8m7Gm": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/Privacy.mp4",
+            "show_controls": false,
+            "column_size": "2",
+            "title": "Your Privacy, Fully Respected",
+            "heading_tag": "h4",
+            "content": "<p>Activate privacy mode to stop recording and tilt the camera down—giving you complete peace of mind at home.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "spacer_GePhPy": {
+          "type": "spacer",
+          "settings": {
+            "column_size": "12"
+          }
+        }
+      },
+      "block_order": [
+        "item_3aRtB3",
+        "item_m8m7Gm",
+        "spacer_GePhPy"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_j6Qt4L": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JFHjPW": {
+          "type": "heading",
+          "settings": {
+            "text": "Stay Close, Even From Afar",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_4ymGmm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Talk to and comfort your pet anytime with real-time two-way audio—perfect for reducing anxiety when you're away.</p>"
+          }
+        },
+        "button_6kjwNQ": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "lg",
+            "text": "Shop Now",
+            "url": "shopify://products/pawtrack-camera",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_JFHjPW",
+        "richtext_4ymGmm",
+        "button_6kjwNQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "video_3nCnzM": {
+      "type": "video",
+      "blocks": {
+        "play_ye3eEM": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_rymqUQ": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_ye3eEM",
+        "heading_rymqUQ"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Audible.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_zHd8J4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4q8aGK": {
+          "type": "heading",
+          "settings": {
+            "text": "Turn Cuteness Into Keepsakes",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_YqbRxr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Automatically captures your pet’s most heartwarming moments in photos and videos—so you can relive them anytime, without lifting a finger.</p>"
+          }
+        },
+        "button_gMhtrL": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Buy Now",
+            "url": "shopify://products/pawtrack-camera",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_4q8aGK",
+        "richtext_YqbRxr",
+        "button_gMhtrL"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1745738131712dadfd": {
+      "type": "apps",
+      "blocks": {
+        "sauce_instagram_tiktok_ugc_homepage_gallery_wETbzf": {
+          "type": "shopify://apps/sauce-instagram-tiktok-ugc/blocks/homepage-gallery/210be7da-51e5-44ad-8997-282a659fdac8",
+          "settings": {
+            "bg_color": "rgba(0,0,0,0)",
+            "top_space": 0,
+            "bottom_space": 0,
+            "left_space": 0,
+            "right_space": 0,
+            "sm_top_space": 0,
+            "sm_bottom_space": 0,
+            "sm_left_space": 0,
+            "sm_right_space": 0,
+            "async_load": true,
+            "user_id": ""
+          }
+        }
+      },
+      "block_order": [
+        "sauce_instagram_tiktok_ugc_homepage_gallery_wETbzf"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_n9By9B",
+    "rich_text_ET6m4N",
+    "media_grid_L6PDjr",
+    "featured_product_bJdqgQ",
+    "testimonials_HTLTjb",
+    "video_UKcHjU",
+    "multi_column_B8j9Ph",
+    "media_with_text_8UBPjj",
+    "rich_text_eiQdpH",
+    "video_Gjpd9A",
+    "media_with_text_U3qq6m",
+    "rich_text_QeaJHH",
+    "image_with_text_overlay_KD4CbK",
+    "rich_text_trKDL9",
+    "before_after_image_jCqVKT",
+    "rich_text_eFMJxK",
+    "multi_column_RWdWAK",
+    "multi_column_zmpKP8",
+    "rich_text_j6Qt4L",
+    "video_3nCnzM",
+    "rich_text_zHd8J4",
+    "1745738131712dadfd"
+  ]
+}

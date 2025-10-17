@@ -1,0 +1,1132 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "rating",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "text_with_icons_UpM6zC": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_XwG7Vt": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-truck",
+            "custom_icon": "shopify://shop_images/Siipet__30day.png",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<p>30-Day Risk Free Trial</p>"
+          }
+        },
+        "item_hAbPhi": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Siipet__warranty.png",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<p>1-Year Warranty</p>"
+          }
+        },
+        "item_9cHt9B": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Siipet__shipping.png",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<p>Free Shipping & Returns</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_XwG7Vt",
+        "item_hAbPhi",
+        "item_9cHt9B"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_BPptT3": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_FHD88P": {
+          "type": "heading",
+          "settings": {
+            "text": "Smarter Cat Care, Made Simple.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_p3J4kN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From smart detection to multi-cat tracking, LitterLens gives you the insights you need to protect your cat’s health—day and night.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FHD88P",
+        "richtext_p3J4kN"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "lg",
+        "image": "shopify://shop_images/siipet_litterlensdesk.jpg",
+        "mobile_image": "shopify://shop_images/siipet_litterlensmobile.jpg",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 0
+      }
+    },
+    "1758761782a46639b8": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_aecfb4d_nLaLd4": {
+          "type": "ai_gen_block_aecfb4d",
+          "settings": {
+            "headline": "How It Works",
+            "body_text": "<p>AI-Powered Peace of Mind for Pet Parents.</p>",
+            "text_alignment": "center",
+            "columns_desktop": "3",
+            "columns_tablet": "2",
+            "columns_mobile": "1",
+            "grid_gap": 40,
+            "image_aspect_ratio": "4/3",
+            "content_padding": 28,
+            "background_color": "#ffffff",
+            "headline_color": "#333333",
+            "body_color": "#666666",
+            "item_background_color": "#ffffff",
+            "item_title_color": "#333333",
+            "item_text_color": "#666666",
+            "headline_size": 40,
+            "body_size": 18,
+            "item_title_size": 18,
+            "item_text_size": 15,
+            "image_1": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b.jpg",
+            "title_1": "Mount & Setup",
+            "text_1": "Snap it on with adhesive pads or clip brackets. Connect in minutes—no tools needed.",
+            "link_1": "",
+            "image_2": "shopify://shop_images/8_e4fed656-903b-4a22-859f-d2e8222f0360.jpg",
+            "title_2": "Detect & Track",
+            "text_2": "AI sensors recognize real litter box visits, logging frequency, patterns, and habits for every cat.",
+            "link_2": "",
+            "image_3": "shopify://shop_images/9_2ee60163-9023-460b-ab3a-4437b70bcb3c.jpg",
+            "title_3": "Monitor & Get Insights",
+            "text_3": "Check health reports, HD video, and instant alerts on your phone—day or night.",
+            "link_3": "",
+            "title_4": "",
+            "text_4": "",
+            "link_4": "",
+            "title_5": "",
+            "text_5": "",
+            "link_5": "",
+            "title_6": "",
+            "text_6": "",
+            "link_6": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_aecfb4d_nLaLd4"
+      ],
+      "settings": {}
+    },
+    "175875768383efc249": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_31dcd46_RxkGWc": {
+          "type": "ai_gen_block_31dcd46",
+          "settings": {
+            "margin_left": 60,
+            "margin_right": 60,
+            "column_gap": 24,
+            "image_aspect_ratio": "1/1",
+            "image_border_radius": 24,
+            "content_vertical_alignment": "flex-start",
+            "content_horizontal_alignment": "flex-start",
+            "text_alignment": "left",
+            "content_padding": 40,
+            "overlay_color": "#000000",
+            "overlay_opacity": 0.2,
+            "overlay_direction": "270deg",
+            "headline_size": 24,
+            "headline_weight": "600",
+            "headline_color": "#ffffff",
+            "headline_spacing": 12,
+            "subhead_size": 16,
+            "subhead_weight": "500",
+            "subhead_color": "#ffffff",
+            "text_color": "#ffffff",
+            "icon_size": 48,
+            "icon_color": "#ffffff",
+            "icon_spacing": 16,
+            "image_1": "shopify://shop_images/2_cdef7ce2-d238-4f84-83c7-6b13f68fa24b.jpg",
+            "headline_1": "Mount & Setup",
+            "subhead_1": "",
+            "icon_1": "none",
+            "link_1": "",
+            "image_2": "shopify://shop_images/8_e4fed656-903b-4a22-859f-d2e8222f0360.jpg",
+            "headline_2": "Detect & Track",
+            "subhead_2": "AI sensors recognize real litter box visits, logging frequency, patterns, and habits for every cat.",
+            "icon_2": "none",
+            "link_2": "",
+            "image_3": "shopify://shop_images/9_2ee60163-9023-460b-ab3a-4437b70bcb3c.jpg",
+            "headline_3": "Monitor & Get Insights",
+            "subhead_3": "Check health reports, HD video, and instant alerts on your phone—day or night.",
+            "icon_3": "none",
+            "link_3": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_31dcd46_RxkGWc"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "blocks_EfFYKC": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_659a1b9_4tFYAt": {
+          "type": "ai_gen_block_659a1b9",
+          "settings": {
+            "divider_height": 50,
+            "margin_top": 20,
+            "margin_bottom": 20,
+            "divider_height_mobile": 30,
+            "margin_top_mobile": 15,
+            "margin_bottom_mobile": 15,
+            "divider_color": "#ffffff",
+            "opacity": 100,
+            "max_width": 100,
+            "border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_659a1b9_4tFYAt"
+      ],
+      "settings": {}
+    },
+    "17587527760cd10699": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d9d657c_Kkmtgx": {
+          "type": "ai_gen_block_d9d657c",
+          "settings": {
+            "section_padding": 100,
+            "grid_gap": 50,
+            "columns_mobile": "1",
+            "image_border_radius": 24,
+            "hover_effect": "zoom",
+            "show_overlay_on_hover": false,
+            "overlay_opacity": 40,
+            "overlay_text_color": "#ffffff",
+            "text_alignment": "left",
+            "title_font_size": 24,
+            "description_font_size": 18,
+            "image_1": "shopify://shop_images/3_9ed61762-ad83-4518-b8f9-1f6b8a0efc93.jpg",
+            "title_1": "Quick Setup & Rinse-Clean",
+            "description_1": "Mount in minutes; IP65 water-resistant for simple rinsing.",
+            "link_1": "",
+            "image_2": "shopify://shop_images/8_e4fed656-903b-4a22-859f-d2e8222f0360.jpg",
+            "title_2": "Smart Detection(CatSense+)",
+            "description_2": "Tracks only genuine litter box visits with\n\nprecision.",
+            "link_2": "",
+            "image_3": "shopify://shop_images/9_2ee60163-9023-460b-ab3a-4437b70bcb3c.jpg",
+            "title_3": "Multi-Cat Monitoring(Pet ID+)",
+            "description_3": "Individual profiles for each cat, perfect for multi-cat homes.",
+            "link_3": "",
+            "image_4": "shopify://shop_images/16.jpg",
+            "title_4": "AI Health Insights",
+            "description_4": "Flags irregular patterns and stool\nconcerns early (with PoopSnap for vet sharing).",
+            "link_4": "",
+            "image_5": "shopify://shop_images/17.jpg",
+            "title_5": "Day & Night HD View",
+            "description_5": "Check in anytime, day or night, with a gentle night light.",
+            "link_5": "",
+            "image_6": "shopify://shop_images/12_e63909a0-8f9b-41b9-8dc5-53fe43a307bd.jpg",
+            "title_6": "Privacy & Sharing Control",
+            "description_6": "Instantly disable the camera and share\naccess securely with family or vets.",
+            "link_6": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d9d657c_Kkmtgx"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "multi_column_6HxcGG": {
+      "type": "multi-column",
+      "blocks": {
+        "item_4wDb8A": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/73aeb0645bd511273a9af7c9bcaa66fd.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Fast Setup, Easy Clean",
+            "heading_tag": "h4",
+            "content": "<p>Mount in minutes; IP65 water-resistant for simple rinsing.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_n9yVT3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/73aeb0645bd511273a9af7c9bcaa66fd.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Fast Setup, Easy Clean",
+            "heading_tag": "h4",
+            "content": "<p>Mount in minutes; IP65 water-resistant for simple rinsing.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_hMDJki": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/73aeb0645bd511273a9af7c9bcaa66fd.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Fast Setup, Easy Clean",
+            "heading_tag": "h4",
+            "content": "<p>Mount in minutes; IP65 water-resistant for simple rinsing.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_WkfUiy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/73aeb0645bd511273a9af7c9bcaa66fd.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Fast Setup, Easy Clean",
+            "heading_tag": "h4",
+            "content": "<p>Mount in minutes; IP65 water-resistant for simple rinsing.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_BdaRcq": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/73aeb0645bd511273a9af7c9bcaa66fd.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Fast Setup, Easy Clean",
+            "heading_tag": "h4",
+            "content": "<p>Mount in minutes; IP65 water-resistant for simple rinsing.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jVDmmn": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/73aeb0645bd511273a9af7c9bcaa66fd.jpg",
+            "show_controls": false,
+            "column_size": "3",
+            "title": "Fast Setup, Easy Clean",
+            "heading_tag": "h4",
+            "content": "<p>Mount in minutes; IP65 water-resistant for simple rinsing.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_4wDb8A",
+        "item_n9yVT3",
+        "item_hMDJki",
+        "item_WkfUiy",
+        "item_BdaRcq",
+        "item_jVDmmn"
+      ],
+      "disabled": true,
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Every Scoop Tells a Story",
+        "content": "<p>With LitterLens, you see more than just a clean box yousee the health and habits that matter most.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_6D8cQD": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_4qPbzL": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-stop",
+            "custom_icon": "shopify://shop_images/Siipet__universalfit.png",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Universal Fit & Easy Setup",
+            "content": "<p>Works with any litter box using adhesive pads or clip brackets. Mount in minutes, and clean easily with IP65 water resistance.</p>"
+          }
+        },
+        "item_LY3JKK": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-stop",
+            "custom_icon": "shopify://shop_images/siipet.png",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Smart Multi-Cat Detection",
+            "content": "<p>Pet ID+ gives each cat its own profile, while CatSense+ ensures only real litter box visits are tracked—no false alerts.</p>"
+          }
+        },
+        "item_6P43Nn": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-stop",
+            "custom_icon": "shopify://shop_images/Siipet__health_tracking.png",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Health Tracking & Insights",
+            "content": "<p>Monitors frequency, duration, stool and urine patterns, and flags early signs of constipation, diarrhea, or blood. Includes AI vet-sharing tools.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_4qPbzL",
+        "item_LY3JKK",
+        "item_6P43Nn"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "title": "Smarter Care, Happier Cats",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "text_with_icons_4mPzx6": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_eWHxhB": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-stop",
+            "custom_icon": "shopify://shop_images/Siipet__day_night.png",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Day & Night Monitoring",
+            "content": "<p>HD video with a gentle night light lets you check in anytime. About one month of battery life per charge with low-battery alerts.</p>"
+          }
+        },
+        "item_4G8peh": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-stop",
+            "custom_icon": "shopify://shop_images/Siipet__privacymode.png",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Privacy, Storage & Peace of Mind",
+            "content": "<p>Disable the camera anytime with Privacy Mode, control sharing, and upgrade with subscription options for extended storage and reports. Comes with a 30-day risk-free trial and 1-year warranty.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_eWHxhB",
+        "item_4G8peh"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "blocks_8ECraY": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_659a1b9_EFcYDC": {
+          "type": "ai_gen_block_659a1b9",
+          "settings": {
+            "divider_height": 50,
+            "margin_top": 20,
+            "margin_bottom": 20,
+            "divider_height_mobile": 30,
+            "margin_top_mobile": 15,
+            "margin_bottom_mobile": 15,
+            "divider_color": "#ffffff",
+            "opacity": 100,
+            "max_width": 100,
+            "border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_659a1b9_EFcYDC"
+      ],
+      "settings": {}
+    },
+    "media_with_text_W4LFqr": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_YxdMB9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13.jpg",
+            "media_width": 60,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "picto-stop",
+            "custom_icon": "shopify://shop_images/Siipet__siipet_icon_2fbbdae0-d6a8-4c53-a44c-6910e90073cd.png",
+            "icon_width": 72,
+            "subheading": "",
+            "title": "Ready to Use, Upgrade Anytime",
+            "content": "<p>With real-time alerts, 1080P live view, two-way audio, and multi-pet recognition, you’ll always stay connected. Plus, built-in storage and replay history mean every highlight is saved automatically.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#fd8b49",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YxdMB9"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
+    "tabs_yDbJc4": {
+      "type": "tabs",
+      "blocks": {
+        "tab_weEFxH": {
+          "type": "tab",
+          "settings": {
+            "title": "Free",
+            "content": "<p><strong>Start with powerful AI features right out of the box.</strong><br/><br/>Your SiiPet Camera works instantly, no subscription required.</p><p><strong>What’s included:</strong></p><ul><li>PawTracking<br/></li><li>PawPrint (4K/8MP highlight)<br/></li><li>SmartFrame AI<br/></li><li>Multi-pet recognition<br/></li><li>Real-time alerts<br/></li><li>1080P live view<br/></li><li>Two-way audio +1 day rolling replay history<br/></li><li>32GB local storage (approx. 2,400 highlights)</li></ul>",
+            "page": ""
+          }
+        },
+        "tab_4B7hHq": {
+          "type": "tab",
+          "settings": {
+            "title": "Basic Plan",
+            "content": "<p><strong>Keep more of your pet’s week at your fingertips.</strong><br/><br/>More playback time, more flexibility—ideal for keeping and reviewing your pet’s week.<br/><br/>$5.99/mo</p><p>Includes everything in Free, plus:</p><ul><li>+3 days of rolling replay history<br/></li><li>50GB cloud storage (approx. 4,400 highlights)<br/></li><li>Faster cloud playback<br/></li><li>Unlimited downloads</li></ul>",
+            "page": ""
+          }
+        },
+        "tab_yRbXLb": {
+          "type": "tab",
+          "settings": {
+            "title": "Premium Plan",
+            "content": "<p><strong>Travel with peace of mind and never miss a moment.</strong><br/><br/>Maximum history and storage—perfect for frequent travelers.<br/><br/>$9.99/mo</p><p>Includes everything in Basic, plus:</p><p>+5 days of rolling replay history<br/></p><p>100GB cloud storage (approx. 9,000 highlights)<br/></p><p>Faster cloud playback<br/></p><p>Unlimited downloads</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_weEFxH",
+        "tab_4B7hHq",
+        "tab_yRbXLb"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "subheading": "",
+        "title": "",
+        "text_alignment": "left",
+        "first_tab_open": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "blocks_Tz9QWY": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_659a1b9_ttM8T8": {
+          "type": "ai_gen_block_659a1b9",
+          "settings": {
+            "divider_height": 50,
+            "margin_top": 20,
+            "margin_bottom": 20,
+            "divider_height_mobile": 30,
+            "margin_top_mobile": 15,
+            "margin_bottom_mobile": 15,
+            "divider_color": "#ffffff",
+            "opacity": 100,
+            "max_width": 100,
+            "border_radius": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_659a1b9_ttM8T8"
+      ],
+      "settings": {}
+    },
+    "hot_spots_XdpiDz": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_DKYCVL": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        },
+        "item_TqgfzQ": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        },
+        "item_NAXQ7x": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_DKYCVL",
+        "item_TqgfzQ",
+        "item_NAXQ7x"
+      ],
+      "disabled": true,
+      "name": "Hot spots",
+      "settings": {
+        "full_width": false,
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "accordion_content_PVai7Y": {
+      "type": "accordion-content",
+      "blocks": {
+        "item_84czVX": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Does LitterLens work with any litter box?",
+            "content": "<p> Yes. LitterLens is designed to fit universally. You can mount it with included adhesive pads or clip brackets, making it compatible with nearly any litter box shape or size.</p>",
+            "page": ""
+          }
+        },
+        "item_ynqEne": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "How many cats can it monitor?",
+            "content": "<p>Unlimited. With our Pet ID+ technology, each cat gets its own profile. You’ll be able to track patterns and habits separately for every cat in your home.</p>",
+            "page": ""
+          }
+        },
+        "item_cPgkmT": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "What exactly does LitterLens monitor?",
+            "content": "<p>LitterLens tracks frequency and duration of litter box visits, stool and urine patterns, and unusual changes in behavior. It can also flag potential health concerns like constipation, diarrhea, or blood in stool.</p>",
+            "page": ""
+          }
+        },
+        "item_RATkjk": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "How accurate is the detection?",
+            "content": "<p>Very accurate. Our CatSense+ system combines motion sensors and AI image analysis to ensure only genuine visits are logged—not just random movements near the litter box.</p>",
+            "page": ""
+          }
+        },
+        "item_nm8HCz": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Will my data be private?",
+            "content": "<p>Yes. With Privacy Mode, you can disable the camera and recording anytime. You also control who has access—sharing is optional and fully managed by you.</p>",
+            "page": ""
+          }
+        },
+        "item_AxdaL6": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "How do I clean the device?",
+            "content": "<p> LitterLens is IP65-rated—dust-tight and water-resistant. You can safely rinse it under running water (just don’t submerge it fully).</p>",
+            "page": ""
+          }
+        },
+        "item_L7jkmt": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Do I need a subscription?",
+            "content": "<p>No. All core features—real-time monitoring, alerts, and multi-cat detection—are included. A subscription unlocks extras like extended video storage, advanced health reports, and enhanced multi-pet recognition. Every unit comes with a 7-day free trial.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_84czVX",
+        "item_ynqEne",
+        "item_cPgkmT",
+        "item_RATkjk",
+        "item_nm8HCz",
+        "item_AxdaL6",
+        "item_L7jkmt"
+      ],
+      "name": "Accordion content",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": "<p>Wondering if LitterLens is right for you? From setup to privacy, we’ve answered the top questions so you can feel confident before checking out.</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
+    },
+    "text_with_icons_JJWMwr": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_B69NzF": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-truck",
+            "custom_icon": "shopify://shop_images/Siipet__30day.png",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<p>30-Day Risk Free Trial</p>"
+          }
+        },
+        "item_Kn4jQx": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Siipet__warranty.png",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<p>1-Year Warranty</p>"
+          }
+        },
+        "item_Q6aMUj": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Siipet__shipping.png",
+            "mobile_icon_width": 24,
+            "icon_width": 48,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "",
+            "content": "<p>Free Shipping & Returns</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_B69NzF",
+        "item_Kn4jQx",
+        "item_Q6aMUj"
+      ],
+      "name": "Text with icons",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h5",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "newsletter_84Kyx4": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "full_width": false,
+        "image": "shopify://shop_images/4_c7107473-47a7-46ae-b9bb-677c009ab53a.jpg",
+        "show_icon": false,
+        "title": "Smarter Pet Care, Delivered",
+        "content": "<p>Get expert tips, wellness insights, and updates from Siipet. Because caring for your pet should feel effortless.</p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "#e0ecf6",
+        "background_gradient": "linear-gradient(58deg, rgba(237, 228, 217, 1), rgba(211, 217, 211, 1) 100%)",
+        "text_color": "#000000",
+        "button_background": "#f0c417",
+        "button_text_color": "#333333"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "recommendations_count": 6,
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "You may also like",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
+    "collection_list_zyjQT9": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_q9UyYP": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/5_9296605f-2ea2-40f3-80e6-5b3a83d4354d.png",
+            "subheading": "Pawtrack Camera",
+            "title": "HD video, two-way audio, and alerts built for pets",
+            "url": "shopify://products/pawtrack-camera",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 24
+          }
+        },
+        "collection_h8gKWH": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/7_20703079-8627-41d1-b1bf-334481b27a65.png",
+            "subheading": "Support",
+            "title": "Help, answers, and quick assistance",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_qpgWww": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/2000x2000_1_b2ac48c1-7f9c-43d7-b57b-50289a52807e.jpg",
+            "subheading": "Partnerships",
+            "title": "Creators, retailers & brands welcome",
+            "url": "",
+            "heading_tag": "h2",
+            "text_position": "place-self-center text-center",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_q9UyYP",
+        "collection_h8gKWH",
+        "collection_qpgWww"
+      ],
+      "disabled": true,
+      "name": "Collection list",
+      "settings": {
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "2",
+        "collections_per_row": 3,
+        "show_progress_bar": false,
+        "subheading": "",
+        "title": "Explore More",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_with_icons_UpM6zC",
+    "image_with_text_overlay_BPptT3",
+    "1758761782a46639b8",
+    "175875768383efc249",
+    "blocks_EfFYKC",
+    "17587527760cd10699",
+    "multi_column_6HxcGG",
+    "text_with_icons_6D8cQD",
+    "text_with_icons_4mPzx6",
+    "blocks_8ECraY",
+    "media_with_text_W4LFqr",
+    "tabs_yDbJc4",
+    "blocks_Tz9QWY",
+    "hot_spots_XdpiDz",
+    "accordion_content_PVai7Y",
+    "text_with_icons_JJWMwr",
+    "newsletter_84Kyx4",
+    "related-products",
+    "collection_list_zyjQT9"
+  ]
+}

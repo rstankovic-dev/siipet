@@ -1,0 +1,59 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "media_with_text_BpbGFh": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_MHXX7g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2000x2000_3_30dd7950-e64d-4587-b565-b20b66d628ab.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Thanks for Applying!",
+            "content": "<p>In the meantime, you’re invited to join our official tester group — a private space where early users like you can:</p><p>🐾 Connect with fellow cat parents</p><p>📢 Get updates about selection and shipping</p><p>💬 Share tips, feedback, and experiences</p><p>🎁 Access exclusive content and future perks</p>",
+            "link_text": "JOIN NOW",
+            "link_url": "https://www.facebook.com/groups/23907124735566913",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_MHXX7g"
+      ],
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": true,
+        "spacing": "small"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_with_text_BpbGFh"
+  ]
+}

@@ -1,0 +1,268 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "navigation": {
+          "type": "navigation",
+          "disabled": true,
+          "settings": {}
+        },
+        "comments": {
+          "type": "comments",
+          "disabled": true,
+          "settings": {
+            "show_gravatar": true,
+            "comments_per_page": 5
+          }
+        }
+      },
+      "block_order": [
+        "navigation",
+        "comments"
+      ],
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "layout": "image_left_text_right",
+        "show_author": false,
+        "show_date": false,
+        "show_comments_count": false,
+        "show_share_buttons": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "content_width": "750px"
+      }
+    },
+    "image_with_text_overlay_8Wzbfi": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_6w7T4y": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_ewNbUe": {
+          "type": "heading",
+          "settings": {
+            "text": "LitterLens: AI-Powered Cat Litter Box Camera to Track Your Cat’s Litter Habits and Spot Health Changes",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6w7T4y",
+        "heading_ewNbUe"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": false,
+        "image_size": "sm",
+        "image": "shopify://shop_images/73aeb0645bd511273a9af7c9bcaa66fd.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_7danHW": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_iVfRam": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Your cat’s bathroom habits are a key indicator of their overall health, but monitoring these changes can often be difficult. LitterLens is an innovative AI-powered camera that tracks your cat's litter box activity and provides actionable insights to help you stay ahead of potential health issues. With just a quick setup and real-time monitoring, LitterLens gives you peace of mind by identifying changes in your cat’s bathroom habits and providing early health alerts.</p>"
+          }
+        },
+        "heading_iPjjNr": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Is Monitoring Litter Box Habits Important?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_tNL7UR": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Changes in your cat’s litter box behavior can be early indicators of health issues, ranging from digestive problems to urinary tract infections. By keeping track of your cat's litter box usage over time, you can identify trends that may require veterinary attention. For example:<br/><br/>Increased/Decreased Frequency: Could indicate a urinary issue or a dietary imbalance.</p><p>Abnormal Feces: Can be a sign of digestive or gastrointestinal issues.</p><p>Increased Visit Duration: May suggest discomfort, constipation, or difficulty urinating.<br/><br/>LitterLens provides you with the tools to monitor these changes and catch potential health concerns early, saving you time, money, and stress.</p>"
+          }
+        },
+        "heading_PMmzmF": {
+          "type": "heading",
+          "settings": {
+            "text": "How Does LitterLens Work?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_pht3z3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Leveraging cutting-edge AI technology, LitterLens is designed to track and analyze your cat’s litter box habits. Here’s how it works:</p><p>1. Install the Camera: Mount LitterLens above your cat’s litter box using easy-to-install adhesive pads or brackets.<br/>2. AI Analysis: The camera uses advanced AI models to analyze litter box usage, monitoring frequency, duration, and the status of cat feces.<br/>3. Insights Delivered: Receive instant notifications when any unusual patterns are detected, such as increased or decreased bathroom activity or abnormal feces. This allows you to take early action, whether it’s scheduling a vet appointment or making adjustments to your cat's diet.<br/><br/>It’s a simple, non-invasive way to monitor your cat's health, detect potential issues, and ensure that your feline friend is feeling their best.</p>"
+          }
+        },
+        "heading_YRPx3U": {
+          "type": "heading",
+          "settings": {
+            "text": "The Technology Behind LitterLens",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "subheading_KYAbXM": {
+          "type": "subheading",
+          "settings": {
+            "text": "1. Pet Recognition & Detection"
+          }
+        },
+        "richtext_D76mpf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We develop advanced convolutional neural networks produced by Neural Architecture Search (NAS) algorithms for pet and person detection. By employing model pruning and quantization methods, the AI model is tailored towards high accuracy and fast speed when deployed on edge devices.</p><p><strong>How It Works</strong></p><p>Pet recognition and detection functionality is built on advanced deep neural network models. Based on the YOLO detection algorithm, we incorporate technologies such as neural architecture search, model pruning, and quantization compression. These techniques enhance detection accuracy while significantly reducing inference time, achieving industry-leading performance in both precision and efficiency.</p><ul><li>Advanced Training Strategy: We use neural architecture search to automatically select optimal model structures suitable for the application scenario. Model pruning followed by retraining further reduces computational cost, maintaining high accuracy while improving model efficiency.</li><li>Targeted Hard Example Optimization: Through multiple iterations, hard examples are manually collected, particularly under challenging conditions such as low-light environments, complex backgrounds, or easily confused objects. This improves the model’s performance in difficult scenarios.</li><li>Quantization Compression for Edge Deployment: The trained model is quantized into an edge-deployable version with minimal loss in accuracy, significantly reducing computational demand and enabling smooth operation of the pet detection model on edge devices.</li></ul><p><strong>Model Data</strong></p><p>Pet recognition and detection model is trained using a massive dataset, with training data optimized according to the application scenario. As a result, it achieves high accuracy on test datasets.</p><ul><li>Massive Training Data: The training dataset is large and diverse, containing millions of images in total. It comes from three main sources: public datasets like COCO and ImageNet; publicly available images collected from the web; and manually collected hard example samples tailored to specific challenges.</li><li>Efficient Data Annotation Process: Publicly collected data from the web is automatically annotated using foundation model APIs. These annotations are then reviewed and corrected in collaboration with professional annotation vendors to ensure high-quality training data.</li><li>Exceptionally High Testing Accuracy: On the pet detection test set, our model achieves an mAP score of 0.85, indicating highly reliable detection performance.</li></ul>"
+          }
+        },
+        "subheading_ffWkFT": {
+          "type": "subheading",
+          "settings": {
+            "text": "2. Multi-Pet Identification"
+          }
+        },
+        "richtext_Wmd7YK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We develop self-supervised pre-training techniques for training an effective pet recognition model. The algorithm can adopt user feedback data for finetuning the model towards a high precision.</p><p><strong>How It Works</strong></p><p>LitterLens integrates multiple AI models to achieve high-precision multi-pet identification, accurately distinguishing between individual pets. The models used include:</p><ul><li>A full-body re-identification model called MaskReIDNet</li><li>A fine-tunable re-identification head</li><li>A high-precision facial recognition model named PetFaceNet</li></ul><p></p><ul><li>Advanced Self-Supervised Pre-training Method: Using a large amount of unlabeled pet data, we apply an improved MoCo-based self-supervised pre-training approach for both MaskReIDNet and PetFaceNet, laying a solid foundation for performance improvements during supervised training.</li><li>Multi-task Trained Full-body Re-identification Model – MaskReIDNet: During training, multi-task learning is applied to suppress background interference and enhance the extraction of fine-grained features from pets, significantly improving identity recognition accuracy — far surpassing existing market solutions.</li><li>User Feedback-Based Fine-Tuning of the Re-Identification Head: During product usage, users can label pet identities in videos. This enables customization of the re-identification head to improve recognition accuracy for household pets. The entire process runs on-device, eliminating any risk of data leakage.</li><li>High-Precision Pet Facial Recognition Model – PetFaceNet: Trained on a large dataset of pet images, PetFaceNet accurately detects visible pet faces in images, performs face alignment, and identifies the pet’s identity.</li><li>Multi-model Collaborative Multi-pet Recognition Scheme: By comprehensively evaluating results from both full-body re-identification and facial recognition, the system delivers more robust and reliable pet identity recognition outcomes.</li></ul><p><strong>Model Data</strong></p><p>The multi-pet identification model LitterLens is trained on a large amount of data. During the data collection process, multiple channels and manual screening methods were used to ensure the diversity of the training data, effectively improving the model's accuracy and generalization capability, allowing it to better adapt to various environments.</p><ul><li>Large-scale Training Data: After algorithmic pre-screening and manual refinement, nearly hundreds of thousands of pet videos and images were obtained. These data were used for self-supervised pre-training and subsequent supervised training.</li><li>Efficient Automatic Data Annotation: After collecting a large number of images, a detection foundation model was utilized to generate bounding box annotations for some high-quality pet images and videos. These annotations were then reviewed manually to ensure data quality.</li><li>Excellent Performance in Multi-Pet Recognition Testing: In identity recognition tests involving 12 different pets, both the full-body re-identification model MaskReIDNet and the pet facial recognition model PetFaceNet achieved over 90% accuracy. This significantly outperforms existing multi-pet identification methods currently available on the market.</li></ul>"
+          }
+        },
+        "subheading_YkkGpJ": {
+          "type": "subheading",
+          "settings": {
+            "text": "3. Fecal Analysis"
+          }
+        },
+        "richtext_VjhWVd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We develop an efficient object detection model for locating cats' feces and employ advanced Vision-Language Models for analyzing the health issues and presenting useful advice based on the visual clues of cats' feces.</p><p><strong>How It Works</strong></p><p>LitterLens uses an improved YOLO detection model to detect pet feces and leverages the advanced multimodal large model Grok2-vision to analyze fecal morphology and color. We have designed comprehensive, efficient, and high-quality prompts to ensure that the multimodal model can accurately analyze the condition of the pet’s feces in detail.</p><ul><li>Pet Feces Detection Model: We improved the architecture of the YOLO model and reduced its computational cost through pruning and quantization techniques, enabling deployment on edge devices.</li><li>Pet Feces Analysis Based on Grok2-vision: We utilize the state-of-the-art multimodal large model Grok2-vision to analyze pet feces. A set of comprehensive, efficient, and high-quality prompts has been carefully designed and iteratively optimized to ensure accurate and detailed analysis results.</li></ul><p><strong>Model Data</strong></p><p>LitterLens's pet feces detection model is trained with thousands of manually collected and annotated images containing pet feces. These images cover various forms of feces to ensure data diversity and improve model generalization.</p><ul><li>High Detection Accuracy: On the pet feces detection test set, LitterLens's model achieves an mAP score of over 0.75, reaching industry-leading accuracy in pet feces detection.</li><li>Comprehensive and Accurate Fecal Analysis: When 500 test images containing feces of different shapes and colors are inputed into LitterLens's fecal analysis system, they all yield accurate and comprehensive analysis results, that are confirmed by 3 experts. The model evaluates fecal conditions from multiple perspectives — shape, color, texture — and provides valuable insights for health assessment and pet care guidance.</li></ul>"
+          }
+        },
+        "heading_xEW8NM": {
+          "type": "heading",
+          "settings": {
+            "text": "Reliability You Can Trust",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qYJqTr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>LitterLens uses a model trained on a diverse dataset of cat and litter box scenes, ensuring that it performs accurately in real-world conditions. The AI has been rigorously tested for:<br/><br/><strong>- High Detection Accuracy:</strong> LitterLens has achieved a high mAP (mean Average Precision) score of 0.85 on the test set, ensuring accurate tracking of your cat’s litter habits.</p><p><strong>- Real-World Testing: </strong>The model has been validated in varied environments, ensuring that it works reliably even in challenging lighting conditions or busy backgrounds.</p>"
+          }
+        },
+        "heading_jHbXme": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Choose LitterLens?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_mfYgCr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>LitterLens doesn’t just track your cat’s litter box activity—it empowers you to take control of their health:<br/><br/>Regular Monitoring: Track your cat’s litter box usage on a daily basis and spot changes in real time.<br/> Health Alerts: Receive instant notifications if any abnormal activity is detected, such as changes in frequency or the condition of the feces.<br/>Easy Setup: LitterLens installs easily above any standard litter box and connects to your smartphone for immediate insights.</p>"
+          }
+        },
+        "heading_xYPyEn": {
+          "type": "heading",
+          "settings": {
+            "text": "The Future of Pet Care with LitterLens",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_RGUQDW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>LitterLens is more than just a smart camera—it's a powerful tool that provides pet parents with critical insights into their cats' health. With AI-powered tracking and analysis, you can proactively monitor your cat’s well-being, detect potential issues early, and ensure they live a long, healthy life. <br/><br/>Get LitterLens today, and take the first step toward smarter, more informed pet care.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_iVfRam",
+        "heading_iPjjNr",
+        "richtext_tNL7UR",
+        "heading_PMmzmF",
+        "richtext_pht3z3",
+        "heading_YRPx3U",
+        "subheading_KYAbXM",
+        "richtext_D76mpf",
+        "subheading_ffWkFT",
+        "richtext_Wmd7YK",
+        "subheading_YkkGpJ",
+        "richtext_VjhWVd",
+        "heading_xEW8NM",
+        "richtext_qYJqTr",
+        "heading_jHbXme",
+        "richtext_mfYgCr",
+        "heading_xYPyEn",
+        "richtext_RGUQDW"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "newsletter_yWhebj": {
+      "type": "newsletter",
+      "name": "Newsletter",
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/12.jpg",
+        "show_icon": false,
+        "title": "Meet LitterLens This Fall",
+        "content": "<p>The smart cat litter box camera that tracks every cat’s visits, flags changes, and alerts you early — so your cats stay healthier, longer.</p><p>Enter your best email below to receive updates and exclusive offers.</p>",
+        "button_text": "Subscribe",
+        "subtext": "By signing up, you agree to receive updates from us.",
+        "background": "#1a1a1a",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "#faf9fb",
+        "button_text_color": "#1a1a1a"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_8Wzbfi",
+    "rich_text_7danHW",
+    "newsletter_yWhebj"
+  ]
+}

@@ -1,0 +1,90 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.joy01-tester.json",
+  "context": {
+    "market": "法国"
+  },
+  "sections": {
+    "1748514390c0a116e8": {
+      "settings": {
+        "full_width": true
+      },
+      "blocks": {
+        "forms_inline_qpJ76x": {
+          "settings": {
+            "form_id": "486933"
+          }
+        }
+      }
+    },
+    "image_with_text_overlay_XFzczd": {
+      "settings": {},
+      "blocks": {
+        "heading_Ni8Y8B": {
+          "settings": {
+            "text": "Participez au programme exclusif de test pour une litière intelligente"
+          }
+        },
+        "richtext_FC4T8n": {
+          "settings": {
+            "content": "<p>Les chats savent parfaitement dissimuler leur douleur — mais des changements subtils dans leur comportement à la litière peuvent révéler des signes précoces de problèmes de santé, comme les infections urinaires, la constipation ou le stress.</p>"
+          }
+        }
+      }
+    },
+    "rich_text_4WRRyi": {
+      "settings": {},
+      "blocks": {
+        "richtext_pk4VmH": {
+          "settings": {
+            "content": "<p>C’est pourquoi nous avons développé une caméra intelligente pour litière, alimentée par l’intelligence artificielle. Elle surveille les habitudes de votre chat à la litière, détecte les anomalies et vous alerte avant que de petits soucis ne deviennent graves.</p><ul><li>Remplissez le formulaire ci-dessous pour vous inscrire</li><li>Recevez la caméra gratuitement si vous êtes sélectionné</li><li>Partagez votre avis après utilisation</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_pk4VmH"
+      ]
+    },
+    "image_with_text_overlay_ciYhUt": {
+      "settings": {},
+      "blocks": {
+        "heading_AGRCxK": {
+          "settings": {
+            "text": "Qu’est-ce qui rend cette caméra intelligente ?"
+          }
+        }
+      }
+    },
+    "media_with_text_kkFdhh": {
+      "settings": {},
+      "blocks": {
+        "image_XErYhc": {
+          "settings": {
+            "title": "Surveillance de santé par IA",
+            "content": "<p>Chaque passage à la litière est enregistré automatiquement : fréquence, durée, et ce qui y a été laissé. L’IA analyse ces données pour détecter des signaux d’alerte tels que :</p><ul><li>Une fréquence anormalement élevée ou faible</li><li>Une durée inhabituelle dans la litière</li><li>Des selles aux formes ou couleurs suspectes</li></ul><p>Considérez-la comme un assistant de santé qui veille 24h/24.</p>"
+          }
+        },
+        "image_MKpfGR": {
+          "settings": {
+            "title": "Capture automatique et alertes en temps réel",
+            "content": "<p>La caméra s’active uniquement lorsque votre chat entre dans la litière, enregistrant des vidéos en haute définition et envoyant des alertes si quelque chose semble anormal. Vous pouvez également consulter la caméra en direct à tout moment via l’application.</p>"
+          }
+        },
+        "image_Yh6Edt": {
+          "settings": {
+            "title": "Reconnaissance multi-chats",
+            "content": "<p>Notre système peut identifier et suivre chaque chat individuellement,. Nous saurez toujours quel chat est passé, à quelle heure, et si tout allait bien. Que vous viviez avec une princesse féline ou toute une tribu, cette caméra tient des registres précis pour chacun.</p>"
+          }
+        }
+      }
+    }
+  }
+}

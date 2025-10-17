@@ -1,0 +1,71 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter_MtcTCJ": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 150,
+            "heading_size": "h4",
+            "title": "Stay In The Know",
+            "content": "<p>By submitting your email, you agree to the Terms and Conditions and to receive updates on the latest products and promotions via email or other channels.</p>"
+          }
+        },
+        "links_zGna7b": {
+          "type": "links",
+          "settings": {
+            "menu": "shop",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "links_KxYM6j": {
+          "type": "links",
+          "settings": {
+            "menu": "support-1",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "text_WHqY7Y": {
+          "type": "text",
+          "settings": {
+            "title": "STATS",
+            "content": "<ul><li>215K+ hours pet moments</li><li>140K+ highlights saved</li><li>28K+ behavior alerts</li></ul><p>🐶 Saving the sweet, the silly, and everything that makes pet life unforgettable. 🐱</p>",
+            "enable_follow_on_shop": true
+          }
+        }
+      },
+      "block_order": [
+        "newsletter_MtcTCJ",
+        "links_zGna7b",
+        "links_KxYM6j",
+        "text_WHqY7Y"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_policy_links": false,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

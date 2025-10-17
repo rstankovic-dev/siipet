@@ -1,0 +1,629 @@
+{% doc %}
+  @prompt
+    multi-column section
+    block should include 60x40 image and text and brand image
+    the blocks should has same height and the brand image should one line on bottom, add full with , images should has origin size
+    width should page width or full width like other sections, image and brand image should has their origin size, image and brand image position should follow the text aligment
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-multi-column-container-{{ ai_gen_id }} {
+    {% if block.settings.full_width %}
+      width: 100vw;
+      margin-left: calc(-50vw + 50%);
+    {% else %}
+      max-width: {{ settings.page_width }}px;
+      margin: 0 auto;
+    {% endif %}
+  }
+
+  .ai-multi-column-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat({{ block.settings.columns_desktop }}, 1fr);
+    gap: {{ block.settings.column_gap }}px;
+    padding: {{ block.settings.section_padding }}px {% if block.settings.full_width %}40px{% else %}20px{% endif %};
+  }
+
+  .ai-multi-column-item-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    background-color: {{ block.settings.card_background }};
+    border-radius: {{ block.settings.card_border_radius }}px;
+    padding: {{ block.settings.card_padding }}px;
+    text-align: {{ block.settings.text_alignment }};
+    height: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, {{ block.settings.card_shadow_opacity | divided_by: 100.0 }});
+  }
+
+  .ai-multi-column-image-wrapper-{{ ai_gen_id }} {
+    width: 100%;
+    margin-bottom: {{ block.settings.image_spacing }}px;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    overflow: hidden;
+    display: flex;
+    {% if block.settings.text_alignment == 'left' %}
+      justify-content: flex-start;
+    {% elsif block.settings.text_alignment == 'right' %}
+      justify-content: flex-end;
+    {% else %}
+      justify-content: center;
+    {% endif %}
+  }
+
+  .ai-multi-column-image-{{ ai_gen_id }} {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .ai-multi-column-image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 60 / 40;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ai-multi-column-image-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-multi-column-content-{{ ai_gen_id }} {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ai-multi-column-title-{{ ai_gen_id }} {
+    color: {{ block.settings.title_color }};
+    font-size: {{ block.settings.title_size }}px;
+    font-weight: 600;
+    margin: 0 0 {{ block.settings.title_spacing }}px 0;
+    line-height: 1.3;
+  }
+
+  .ai-multi-column-text-{{ ai_gen_id }} {
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    line-height: 1.5;
+    margin: 0 0 {{ block.settings.text_spacing }}px 0;
+    flex-grow: 1;
+  }
+
+  .ai-multi-column-brand-wrapper-{{ ai_gen_id }} {
+    margin-top: auto;
+    padding-top: {{ block.settings.brand_spacing }}px;
+    display: flex;
+    {% if block.settings.text_alignment == 'left' %}
+      justify-content: flex-start;
+    {% elsif block.settings.text_alignment == 'right' %}
+      justify-content: flex-end;
+    {% else %}
+      justify-content: center;
+    {% endif %}
+  }
+
+  .ai-multi-column-brand-image-{{ ai_gen_id }} {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .ai-multi-column-brand-placeholder-{{ ai_gen_id }} {
+    height: 40px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #999;
+    padding: 0 20px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-multi-column-{{ ai_gen_id }} {
+      grid-template-columns: repeat({{ block.settings.columns_mobile }}, 1fr);
+      gap: {{ block.settings.column_gap | times: 0.75 }}px;
+      padding: {{ block.settings.section_padding | times: 0.75 }}px {% if block.settings.full_width %}20px{% else %}15px{% endif %};
+    }
+
+    .ai-multi-column-item-{{ ai_gen_id }} {
+      padding: {{ block.settings.card_padding | times: 0.75 }}px;
+    }
+
+    .ai-multi-column-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.9 }}px;
+    }
+
+    .ai-multi-column-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size | times: 0.9 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-multi-column-container-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-multi-column-{{ ai_gen_id }}">
+    {% for i in (1..6) %}
+      {% liquid
+        assign enabled_key = 'column_' | append: i | append: '_enabled'
+        assign image_key = 'column_' | append: i | append: '_image'
+        assign title_key = 'column_' | append: i | append: '_title'
+        assign text_key = 'column_' | append: i | append: '_text'
+        assign brand_key = 'column_' | append: i | append: '_brand_image'
+
+        assign enabled = block.settings[enabled_key]
+        assign image = block.settings[image_key]
+        assign title = block.settings[title_key]
+        assign text = block.settings[text_key]
+        assign brand_image = block.settings[brand_key]
+      %}
+
+      {% if enabled %}
+        <div class="ai-multi-column-item-{{ ai_gen_id }}">
+          <div class="ai-multi-column-image-wrapper-{{ ai_gen_id }}">
+            {% if image %}
+              <img
+                src="{{ image | image_url }}"
+                alt="{{ image.alt | escape }}"
+                class="ai-multi-column-image-{{ ai_gen_id }}"
+                loading="lazy"
+                width="{{ image.width }}"
+                height="{{ image.height }}"
+              >
+            {% else %}
+              <div class="ai-multi-column-image-placeholder-{{ ai_gen_id }}">
+                {{ 'image' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+          </div>
+
+          <div class="ai-multi-column-content-{{ ai_gen_id }}">
+            {% if title != blank %}
+              <h3 class="ai-multi-column-title-{{ ai_gen_id }}">{{ title }}</h3>
+            {% endif %}
+
+            {% if text != blank %}
+              <div class="ai-multi-column-text-{{ ai_gen_id }}">{{ text }}</div>
+            {% endif %}
+
+            <div class="ai-multi-column-brand-wrapper-{{ ai_gen_id }}">
+              {% if brand_image %}
+                <img
+                  src="{{ brand_image | image_url }}"
+                  alt="{{ brand_image.alt | escape }}"
+                  class="ai-multi-column-brand-image-{{ ai_gen_id }}"
+                  loading="lazy"
+                  width="{{ brand_image.width }}"
+                  height="{{ brand_image.height }}"
+                >
+              {% else %}
+                <div class="ai-multi-column-brand-placeholder-{{ ai_gen_id }}">
+                  Brand logo
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Multi-column with brands",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 2,
+      "max": 6,
+      "step": 1,
+      "label": "Columns on desktop",
+      "default": 3
+    },
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "label": "Columns on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "range",
+      "id": "column_gap",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "label": "Gap between columns",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Section padding",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Card style"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Card background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "card_padding",
+      "min": 10,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "label": "Card padding",
+      "default": 25
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Card border radius",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "card_shadow_opacity",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "%",
+      "label": "Card shadow opacity",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Image settings"
+    },
+    {
+      "type": "range",
+      "id": "image_spacing",
+      "min": 10,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Space below image",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Image border radius",
+      "default": 8
+    },
+    {
+      "type": "header",
+      "content": "Text style"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#333333"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 14,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Title size",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "title_spacing",
+      "min": 6,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Space below title",
+      "default": 12
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#666666"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Text size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "text_spacing",
+      "min": 10,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Space below text",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Brand image"
+    },
+    {
+      "type": "range",
+      "id": "brand_spacing",
+      "min": 10,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Space above brand",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Column 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_1_enabled",
+      "label": "Enable column 1",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "column_1_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "column_1_title",
+      "label": "Title",
+      "default": "Feature title"
+    },
+    {
+      "type": "textarea",
+      "id": "column_1_text",
+      "label": "Text",
+      "default": "Share details about your product features and benefits."
+    },
+    {
+      "type": "image_picker",
+      "id": "column_1_brand_image",
+      "label": "Brand image"
+    },
+    {
+      "type": "header",
+      "content": "Column 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_2_enabled",
+      "label": "Enable column 2",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "column_2_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "column_2_title",
+      "label": "Title",
+      "default": "Feature title"
+    },
+    {
+      "type": "textarea",
+      "id": "column_2_text",
+      "label": "Text",
+      "default": "Share details about your product features and benefits."
+    },
+    {
+      "type": "image_picker",
+      "id": "column_2_brand_image",
+      "label": "Brand image"
+    },
+    {
+      "type": "header",
+      "content": "Column 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_3_enabled",
+      "label": "Enable column 3",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "column_3_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "column_3_title",
+      "label": "Title",
+      "default": "Feature title"
+    },
+    {
+      "type": "textarea",
+      "id": "column_3_text",
+      "label": "Text",
+      "default": "Share details about your product features and benefits."
+    },
+    {
+      "type": "image_picker",
+      "id": "column_3_brand_image",
+      "label": "Brand image"
+    },
+    {
+      "type": "header",
+      "content": "Column 4"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_4_enabled",
+      "label": "Enable column 4",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "column_4_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "column_4_title",
+      "label": "Title",
+      "default": "Feature title"
+    },
+    {
+      "type": "textarea",
+      "id": "column_4_text",
+      "label": "Text",
+      "default": "Share details about your product features and benefits."
+    },
+    {
+      "type": "image_picker",
+      "id": "column_4_brand_image",
+      "label": "Brand image"
+    },
+    {
+      "type": "header",
+      "content": "Column 5"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_5_enabled",
+      "label": "Enable column 5",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "column_5_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "column_5_title",
+      "label": "Title",
+      "default": "Feature title"
+    },
+    {
+      "type": "textarea",
+      "id": "column_5_text",
+      "label": "Text",
+      "default": "Share details about your product features and benefits."
+    },
+    {
+      "type": "image_picker",
+      "id": "column_5_brand_image",
+      "label": "Brand image"
+    },
+    {
+      "type": "header",
+      "content": "Column 6"
+    },
+    {
+      "type": "checkbox",
+      "id": "column_6_enabled",
+      "label": "Enable column 6",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "column_6_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "column_6_title",
+      "label": "Title",
+      "default": "Feature title"
+    },
+    {
+      "type": "textarea",
+      "id": "column_6_text",
+      "label": "Text",
+      "default": "Share details about your product features and benefits."
+    },
+    {
+      "type": "image_picker",
+      "id": "column_6_brand_image",
+      "label": "Brand image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multi-column with brands"
+    }
+  ]
+}
+{% endschema %}

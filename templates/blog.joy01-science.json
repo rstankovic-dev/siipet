@@ -1,0 +1,198 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "disabled": true,
+      "settings": {
+        "allow_transparent_header": false,
+        "content": "<p>Get access to our latest news by signing up for our newsletter.</p>",
+        "show_newsletter_form": true,
+        "show_tags": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 6,
+        "feature_first_article": true,
+        "feature_article_background": "",
+        "feature_article_text_color": "",
+        "show_excerpt": true,
+        "show_date": true,
+        "show_author": false,
+        "show_comments_count": false,
+        "show_category": true
+      }
+    },
+    "slideshow_BtAnPz": {
+      "type": "slideshow",
+      "blocks": {
+        "image_M7qUHq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/73aeb0645bd511273a9af7c9bcaa66fd.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Siipet LitterLens Camera",
+            "title": "AI-Powered Litter Box Monitoring for Your Cat",
+            "heading_tag": "h1",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_M7qUHq"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "sm",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "rich_text_gWjDkK": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_wHX3c6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Your cat's bathroom habits are a vital part of their health, but monitoring these changes can be challenging. <strong>LitterLens</strong> is an innovative AI-powered camera designed to track your cat’s litter box visits and provide valuable insights into their health. With just a simple setup, <strong>LitterLens</strong> uses AI to analyze your cat’s litter box activity and detect potential health concerns</p>"
+          }
+        },
+        "heading_t7dPNK": {
+          "type": "heading",
+          "settings": {
+            "text": "How Does LitterLens Work?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ATF7Ye": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Using advanced AI technology, <strong>LitterLens</strong> monitors your cat’s litter box visits and provides actionable insights into their habits. Here’s how it works:</p><ol><li>Mount LitterLens near your cat’s litter box and connect it to Wi-Fi.<br/></li><li>LitterLens<strong>’</strong> AI system processes the data, tracking the frequency and duration of litter box visits to identify any health-related issues.<br/></li><li>Receive easy-to-understand feedback about your cat’s habits, helping you spot potential problems early.<br/></li></ol><p>It’s a simple, non-intrusive way to track your cat’s health and recognize changes that may need veterinary attention.</p>"
+          }
+        },
+        "heading_m6azPb": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Is Monitoring Litter Box Visits Important?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_ndxhib": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Changes in your cat’s litter box habits can indicate underlying health issues. By regularly monitoring these habits, pet owners can gain insights into their cat’s digestive health, hydration, and overall well-being.</p><p>When changes are detected, LitterLens gives you early warnings, allowing you to address issues with your veterinarian before they become serious. Keeping a history of your cat’s litter box activity also aids in ongoing monitoring and enhances conversations with your vet.</p>"
+          }
+        },
+        "heading_NTBWWN": {
+          "type": "heading",
+          "settings": {
+            "text": "Behind the Scenes: How LitterLens’ AI Works",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_UggTXy": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>LitterLens utilizes a powerful AI model designed to track and analyze litter box activity with high accuracy.<br/><br/><strong>Image Processing and Activity Tracking</strong></p><p>AI Models: LitterLens uses deep learning technologies to assess your cat’s litter box visits, optimized for behavior and activity classification.<br/>Motion Detection: The camera uses motion sensors to detect when your cat enters or exits the litter box, automatically recording activity.<br/>Health Insight Evaluation: The AI examines the frequency and duration of visits, providing insights into your cat’s health based on behavior patterns.<br/><br/><strong>Detection and Behavior Assessment</strong></p><p>Advanced Detection: The AI tracks subtle changes in your cat’s behavior, such as increased or decreased visits, to detect potential issues early.</p>"
+          }
+        },
+        "heading_bEPEEd": {
+          "type": "heading",
+          "settings": {
+            "text": "How Reliable Is It?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_xGLdb9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>LitterLens<strong>’</strong> AI model has been rigorously tested to ensure high performance and reliability:</p><ul><li>Extensive Dataset: The AI was trained on thousands of litter box activity samples, ensuring a robust understanding of typical cat behavior.</li><li>High Accuracy: The model achieves high accuracy in detecting abnormal litter box visits, giving you reliable insights into your cat’s habits.</li><li>Real-World Testing: The AI was tested under various conditions, ensuring consistent performance even in different lighting and environments.</li><li>Expert Validation: The AI model has been validated by veterinary experts to ensure it meets the highest standards for pet care.</li></ul>"
+          }
+        },
+        "heading_TdUM4A": {
+          "type": "heading",
+          "settings": {
+            "text": "Why Choose LitterLens?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_NQT7k6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "richtext_YE9xjw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>LitterLens empowers pet owners to monitor their cat’s litter box activity and health from the convenience of their smartphone. By leveraging AI-driven insights, you can:<br/><br/>1. Monitor litter box visits regularly<br/>2. Detect changes in your cat’s bathroom habits<br/>3. Save and share results with your veterinarian<br/><br/>With LitterLens, routine health monitoring becomes simple, informative, and accessible, giving pet owners peace of mind and ensuring their cats stay healthy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_wHX3c6",
+        "heading_t7dPNK",
+        "richtext_ATF7Ye",
+        "heading_m6azPb",
+        "richtext_ndxhib",
+        "heading_NTBWWN",
+        "richtext_UggTXy",
+        "heading_bEPEEd",
+        "richtext_xGLdb9",
+        "heading_TdUM4A",
+        "richtext_NQT7k6",
+        "richtext_YE9xjw"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": false,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_BtAnPz",
+    "rich_text_gWjDkK"
+  ]
+}

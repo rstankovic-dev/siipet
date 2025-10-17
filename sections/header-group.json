@@ -1,0 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message_znCi9D": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "🐱 Cat Litter Box Camera — Be First, Try Free",
+            "url": "https://siipet.com/pages/j1-tester-program"
+          }
+        },
+        "message_WXhk8K": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "$50 Off the PawTrack Camera",
+            "url": "shopify://products/pawtrack-camera"
+          }
+        },
+        "message_HPeFim": {
+          "type": "message",
+          "settings": {
+            "text": "Join Our Facebook Group for Exclusive Updates & Offers",
+            "url": "https://www.facebook.com/groups/23907124735566913"
+          }
+        }
+      },
+      "block_order": [
+        "message_znCi9D",
+        "message_WXhk8K",
+        "message_HPeFim"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "autoplay": true,
+        "cycle_speed": 7,
+        "text_size": "text-xs",
+        "navigation_mode": "arrows",
+        "scrolling_speed": 10,
+        "background": "#000000",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "enable_sticky": true,
+        "hide_on_scroll": true,
+        "logo": "shopify://shop_images/SiiPet__logo___Ryan_20240522_1ab99f96-df4a-4a4c-8efa-073ceaff8570.png",
+        "logo_max_width": 120,
+        "logo_mobile_max_width": 100,
+        "menu": "header",
+        "sidebar_menu": "",
+        "secondary_menu": "",
+        "menu_open_trigger": "hover",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": false,
+        "show_country_flag": false,
+        "show_country_name": false,
+        "transparent_header_text_color": "#ffffff",
+        "transparent_logo": "shopify://shop_images/SiiPet__logo___Ryan_20240522_0060333d-d3c4-40b3-9781-383a8672a104.png",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
